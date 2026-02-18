@@ -1,0 +1,9 @@
+# Never commit these
+.env
+*.db
+.last_run
+
+# Python environment — don't commit the whole installed library folder
+venv/
+__pycache__/
+*.pyc

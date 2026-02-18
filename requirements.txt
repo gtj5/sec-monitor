@@ -1,0 +1,7 @@
+anthropic        # Claude AI client
+flask            # Web dashboard
+feedparser       # Parse RSS feeds
+requests         # Fetch web pages
+beautifulsoup4   # Parse HTML (for meeting agendas)
+apscheduler      # Run pipeline on a schedule
+python-dotenv    # Load .env file into your environment
