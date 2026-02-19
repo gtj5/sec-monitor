@@ -59,6 +59,7 @@ TEMPLATE = """
     td.date { white-space: nowrap; color: #888; font-size: 0.8rem; }
     td.title a { text-decoration: none; color: inherit; }
     td.title a:hover { text-decoration: underline; }
+    .description { color: #666; font-size: 0.82rem; margin-top: 0.2rem; }
   </style>
 </head>
 <body>
@@ -104,7 +105,12 @@ TEMPLATE = """
                 <span class="badge">{{ item.source }}</span>
               {% endif %}
             </td>
-            <td class="title"><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></td>
+            <td class="title">
+              <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+              {% if item.summary and item.summary != item.title %}
+                <div class="description">{{ item.summary[:200] }}{% if item.summary|length > 200 %}…{% endif %}</div>
+              {% endif %}
+            </td>
             <td class="date">{{ item.created_at }}</td>
           </tr>
           {% endfor %}

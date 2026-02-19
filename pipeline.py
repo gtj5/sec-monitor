@@ -100,8 +100,10 @@ def fetch_meeting_items():
         relative_url = link_tag.get("href", "")
         full_url = "https://www.sec.gov" + relative_url
 
-        # Grab description text if present (not all events have one)
-        desc_tag = card.find("p")
+        # The description lives in a specific div, not the <p> tag.
+        # The <p> tag holds the event category (e.g. "Public Appearances by Officials"),
+        # which is not useful as a description.
+        desc_tag = card.find("div", class_="usa-collection__description")
         description = desc_tag.get_text(strip=True) if desc_tag else ""
 
         # The <time> tag has a clean datetime attribute (e.g. "2026-02-18T16:00:00-05:00").
@@ -109,14 +111,13 @@ def fetch_meeting_items():
         time_tag = card.find("time")
         if time_tag and time_tag.get("datetime"):
             from datetime import datetime as dt
-            raw_dt = time_tag["datetime"]          # "2026-02-18T16:00:00-05:00"
+            raw_dt = time_tag["datetime"]
             parsed = dt.fromisoformat(raw_dt)
             date_text = parsed.strftime("%Y-%m-%d %I:%M %p ET")
         else:
             date_text = ""
 
-        # Build a summary for Claude to evaluate
-        summary = f"{title}. {description}".strip()
+        summary = description
 
         items.append({
             "source":    "open_meeting",
