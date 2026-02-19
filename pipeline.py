@@ -10,13 +10,10 @@ Run manually:   python pipeline.py
 Run on schedule: handled by the scheduler inside app.py (Chunk 6)
 """
 
-import os
-import json
 import feedparser
 import requests
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
-import anthropic
 
 import database
 
@@ -127,62 +124,7 @@ def fetch_meeting_items():
 
 
 # -----------------------------------------------------------------
-# Step 2: ANALYZE (with Claude)
-# -----------------------------------------------------------------
-
-def is_crypto_related(title, summary):
-    """
-    Ask Claude whether an SEC item is related to crypto/digital assets.
-
-    Returns a tuple: (is_relevant: bool, reason: str)
-
-    We ask Claude to respond in JSON so we can reliably parse the answer
-    without trying to interpret free-form text.
-    """
-    client = anthropic.Anthropic()  # automatically reads ANTHROPIC_API_KEY
-
-    prompt = f"""You are a research assistant for a journalist covering the SEC.
-
-Evaluate whether the following SEC item is related to cryptocurrency,
-digital assets, blockchain technology, crypto tokens, NFTs, DeFi,
-stablecoins, or similar topics.
-
-Title: {title}
-Summary: {summary}
-
-Respond with JSON only — no other text. Use this exact format:
-{{
-  "is_relevant": true or false,
-  "reason": "one sentence explaining why or why not"
-}}"""
-
-    message = client.messages.create(
-        model="claude-haiku-4-5-20251001",  # fast and cheap — good for classification
-        max_tokens=150,
-        messages=[{"role": "user", "content": prompt}],
-    )
-
-    raw = message.content[0].text.strip()
-
-    # Claude sometimes wraps JSON in markdown fences (```json ... ```)
-    # Strip them so json.loads gets clean input
-    if raw.startswith("```"):
-        raw = raw.split("```")[1]          # drop the opening ```json line
-        if raw.startswith("json"):
-            raw = raw[4:]                  # drop the word "json"
-        raw = raw.strip()
-
-    try:
-        result = json.loads(raw)
-        return result.get("is_relevant", False), result.get("reason", "")
-    except json.JSONDecodeError:
-        # If Claude's response wasn't valid JSON, log it and skip
-        print(f"    ⚠ Could not parse Claude response: {raw[:100]}")
-        return False, ""
-
-
-# -----------------------------------------------------------------
-# Step 3: STORE
+# Step 2: STORE
 # -----------------------------------------------------------------
 
 def save_item(item, reason):
@@ -223,7 +165,7 @@ def already_saved(url):
 # -----------------------------------------------------------------
 
 def run_pipeline():
-    """Fetch all sources, analyze new items, save relevant ones."""
+    """Fetch all sources and save every new item."""
     print("\n=== SEC Monitor Pipeline ===")
 
     # Make sure the database table exists
@@ -238,25 +180,15 @@ def run_pipeline():
     print(f"\nTotal items fetched: {len(all_items)}")
 
     new_count = 0
-    relevant_count = 0
 
     for item in all_items:
-        # Skip items we've already analyzed (saves API calls)
         if already_saved(item["url"]):
             continue
 
         new_count += 1
-        print(f"\n  Analyzing: {item['title'][:70]}")
+        save_item(item, reason="")
 
-        is_relevant, reason = is_crypto_related(item["title"], item["summary"])
-
-        if is_relevant:
-            relevant_count += 1
-            save_item(item, reason)
-        else:
-            print(f"    – Not crypto-related")
-
-    print(f"\n=== Done: {new_count} new items analyzed, {relevant_count} saved ===\n")
+    print(f"\n=== Done: {new_count} new items saved ===\n")
 
 
 if __name__ == "__main__":

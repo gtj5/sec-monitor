@@ -85,7 +85,6 @@ TEMPLATE = """
             {% endif %}
           </header>
           <h3><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></h3>
-          <p class="reason">{{ item.ai_reason }}</p>
           <footer><small>Saved {{ item.created_at }}</small></footer>
         </article>
       {% endfor %}
