@@ -104,9 +104,16 @@ def fetch_meeting_items():
         desc_tag = card.find("p")
         description = desc_tag.get_text(strip=True) if desc_tag else ""
 
-        # Grab the date/time line (the first few text nodes before the heading)
-        date_tag = card.find("time") or card.find(class_=lambda c: c and "date" in str(c))
-        date_text = date_tag.get_text(strip=True) if date_tag else ""
+        # The <time> tag has a clean datetime attribute (e.g. "2026-02-18T16:00:00-05:00").
+        # Use that directly rather than scraping the display spans, which run together.
+        time_tag = card.find("time")
+        if time_tag and time_tag.get("datetime"):
+            from datetime import datetime as dt
+            raw_dt = time_tag["datetime"]          # "2026-02-18T16:00:00-05:00"
+            parsed = dt.fromisoformat(raw_dt)
+            date_text = parsed.strftime("%Y-%m-%d %I:%M %p ET")
+        else:
+            date_text = ""
 
         # Build a summary for Claude to evaluate
         summary = f"{title}. {description}".strip()
