@@ -35,129 +35,153 @@ TEMPLATE = """
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SEC Monitor</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
   <style>
-    /* ---- Layout ---- */
-    body    { margin: 0; padding: 0; font-family: system-ui, sans-serif; background: #f8fafc; }
-    .wrap   { max-width: 1200px; margin: 0 auto; padding: 0 2rem 3rem; }
+    /* ---- Base ---- */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+      min-height: 100vh;
+      font-size: 14px;
+      line-height: 1.5;
+    }
 
-    /* ---- Top nav ---- */
-    .site-nav {
-      background: #0f2540;
-      color: #fff;
+    /* ---- Nav ---- */
+    .nav {
+      border-bottom: 1px solid #21262d;
       padding: 0 2rem;
+      height: 52px;
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      height: 56px;
-      margin-bottom: 2rem;
+      gap: 1rem;
+      position: sticky;
+      top: 0;
+      background: #0d1117;
+      z-index: 10;
     }
-    .site-nav h1 { margin: 0; font-size: 1.1rem; font-weight: 700; color: #fff; letter-spacing: 0.02em; }
-    .site-nav .sub { font-size: 0.75rem; color: #94a3b8; margin-left: 0.75rem; }
+    .nav-title { font-size: 0.95rem; font-weight: 600; color: #e6edf3; letter-spacing: 0.01em; }
+    .nav-sub   { font-size: 0.75rem; color: #484f58; }
+    .nav-right { margin-left: auto; display: flex; align-items: center; gap: 0.5rem; }
+
+    /* ---- Buttons ---- */
+    .btn {
+      display: inline-block;
+      padding: 0.3rem 0.85rem;
+      font-size: 0.78rem;
+      font-weight: 500;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      border: 1px solid transparent;
+      transition: background 0.15s, border-color 0.15s;
+      line-height: 1.6;
+    }
+    .btn-primary { background: #238636; border-color: #2ea043; color: #fff; }
+    .btn-primary:hover { background: #2ea043; }
+    .btn-ghost   { background: transparent; border-color: #30363d; color: #c9d1d9; }
+    .btn-ghost:hover { background: #161b22; border-color: #8b949e; }
+
+    /* ---- Wrap ---- */
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 2rem; }
 
     /* ---- Stats strip ---- */
     .stats {
-      display: flex;
-      gap: 1px;
-      background: #e2e8f0;
-      border: 1px solid #e2e8f0;
-      border-radius: 10px;
-      overflow: hidden;
-      margin-bottom: 1.5rem;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      margin-bottom: 1.75rem;
     }
     .stat {
-      flex: 1;
-      background: #fff;
-      padding: 0.9rem 1.25rem;
-      text-align: center;
+      background: #161b22;
+      border: 1px solid #21262d;
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
     }
-    .stat-number { font-size: 1.6rem; font-weight: 700; color: #0f2540; line-height: 1; }
-    .stat-label  { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: #94a3b8; margin-top: 0.25rem; }
+    .stat-number { font-size: 1.75rem; font-weight: 700; color: #e6edf3; line-height: 1; }
+    .stat-label  { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: #484f58; margin-top: 0.35rem; }
 
     /* ---- Toolbar ---- */
     .toolbar {
       display: flex;
       align-items: center;
-      gap: 0.6rem;
+      gap: 0.5rem;
       margin-bottom: 1rem;
-      flex-wrap: wrap;
     }
-    .toolbar form   { margin: 0; }
-    .toolbar button { margin: 0; padding: 0.4rem 1rem; font-size: 0.82rem; background: #0f2540; border-color: #0f2540; color: #fff; border-radius: 6px; cursor: pointer; }
-    .toolbar button:hover { background: #1a3a5c; border-color: #1a3a5c; }
-    .btn-csv {
-      padding: 0.4rem 1rem; font-size: 0.82rem; border: 1px solid #cbd5e1;
-      border-radius: 6px; text-decoration: none; color: #334155;
-      background: #fff; display: inline-block;
-    }
-    .btn-csv:hover { background: #f1f5f9; }
-    .last-run { margin-left: auto; font-size: 0.78rem; color: #94a3b8; }
+    .toolbar form { margin: 0; }
+    .last-run { margin-left: auto; font-size: 0.75rem; color: #484f58; }
 
     /* ---- Badges ---- */
     .badge {
       display: inline-block;
-      padding: 0.2rem 0.65rem;
+      padding: 0.18rem 0.6rem;
       border-radius: 20px;
-      font-size: 0.68rem;
-      font-weight: 700;
+      font-size: 0.67rem;
+      font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.05em;
       white-space: nowrap;
     }
-    .badge-press   { background: #dbeafe; color: #1d4ed8; }
-    .badge-litig   { background: #fee2e2; color: #b91c1c; }
-    .badge-meeting { background: #dcfce7; color: #15803d; }
+    .badge-press   { background: #0d2044; color: #79c0ff; border: 1px solid #1f6feb; }
+    .badge-litig   { background: #2d1215; color: #ff7b72; border: 1px solid #da3633; }
+    .badge-meeting { background: #0d2d1a; color: #56d364; border: 1px solid #238636; }
 
     /* ---- Table ---- */
-    .table-wrap { background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; overflow: hidden; }
-    table  { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+    .table-wrap {
+      background: #161b22;
+      border: 1px solid #21262d;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    table { width: 100%; border-collapse: collapse; }
     thead th {
-      background: #f8fafc;
-      padding: 0.65rem 1rem;
+      background: #0d1117;
+      padding: 0.6rem 1rem;
       text-align: left;
-      font-size: 0.7rem;
+      font-size: 0.68rem;
       font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: 0.06em;
-      color: #64748b;
-      border-bottom: 1px solid #e2e8f0;
-      position: sticky;
-      top: 0;
+      letter-spacing: 0.07em;
+      color: #484f58;
+      border-bottom: 1px solid #21262d;
     }
-    tbody tr { border-bottom: 1px solid #f1f5f9; transition: background 0.1s; }
+    tbody tr { border-bottom: 1px solid #21262d; transition: background 0.1s; }
     tbody tr:last-child { border-bottom: none; }
-    tbody tr:hover { background: #f8fafc; }
-    td { padding: 0.65rem 1rem; vertical-align: top; }
-    td.date { white-space: nowrap; color: #94a3b8; font-size: 0.76rem; padding-top: 0.8rem; width: 11rem; }
-    td.type { padding-top: 0.8rem; width: 8rem; }
-    td.title a { text-decoration: none; color: #1e293b; font-weight: 500; line-height: 1.4; }
-    td.title a:hover { color: #0f2540; text-decoration: underline; }
-    .description { color: #64748b; font-size: 0.8rem; margin-top: 0.3rem; line-height: 1.5; }
+    tbody tr:hover { background: #1c2128; }
+    td { padding: 0.7rem 1rem; vertical-align: top; }
+    td.date { white-space: nowrap; color: #484f58; font-size: 0.74rem; padding-top: 0.85rem; width: 11rem; }
+    td.type { padding-top: 0.85rem; width: 8.5rem; }
+    td.title a { text-decoration: none; color: #c9d1d9; font-weight: 500; }
+    td.title a:hover { color: #79c0ff; }
+    .description { color: #484f58; font-size: 0.78rem; margin-top: 0.3rem; line-height: 1.5; }
 
     /* ---- Footer ---- */
-    .site-footer { margin-top: 2.5rem; text-align: center; font-size: 0.75rem; color: #cbd5e1; }
+    .site-footer { margin-top: 2.5rem; text-align: center; font-size: 0.72rem; color: #30363d; }
   </style>
 </head>
 <body>
 
-  <nav class="site-nav">
-    <div style="display:flex; align-items:baseline; gap:0.5rem;">
-      <h1>SEC Monitor</h1>
-      <span class="sub">Press releases &middot; Litigation &middot; Open meetings</span>
+  <nav class="nav">
+    <span class="nav-title">SEC Monitor</span>
+    <span class="nav-sub">Press releases &middot; Litigation &middot; Open meetings</span>
+    <div class="nav-right">
+      <form method="POST" action="/run" style="margin:0;">
+        <button type="submit" class="btn btn-primary">Refresh now</button>
+      </form>
+      <a href="/export" class="btn btn-ghost">Download CSV</a>
     </div>
   </nav>
 
   <div class="wrap">
 
-    <!-- Stats strip -->
     <div class="stats">
       <div class="stat">
         <div class="stat-number">{{ items|length }}</div>
-        <div class="stat-label">Total</div>
+        <div class="stat-label">Total items</div>
       </div>
       <div class="stat">
         <div class="stat-number">{{ items|selectattr('source','equalto','press_release')|list|length }}</div>
-        <div class="stat-label">Press Releases</div>
+        <div class="stat-label">Press releases</div>
       </div>
       <div class="stat">
         <div class="stat-number">{{ items|selectattr('source','equalto','litigation_release')|list|length }}</div>
@@ -169,16 +193,11 @@ TEMPLATE = """
       </div>
     </div>
 
-    <!-- Toolbar -->
     <div class="toolbar">
-      <form method="POST" action="/run">
-        <button type="submit">Refresh now</button>
-      </form>
-      <a href="/export" class="btn-csv">Download CSV</a>
+      <span style="font-size:0.78rem; color:#484f58;">{{ items|length }} items</span>
       <span class="last-run">Last run: {{ last_run }}</span>
     </div>
 
-    <!-- Table -->
     {% if items %}
     <div class="table-wrap">
       <table>
@@ -218,7 +237,7 @@ TEMPLATE = """
       </table>
     </div>
     {% else %}
-      <p>No items yet. Click "Refresh now" to fetch SEC items.</p>
+      <p style="color:#484f58; margin-top:2rem;">No items yet. Click "Refresh now" to fetch SEC items.</p>
     {% endif %}
 
     <p class="site-footer">Data sourced from SEC.gov &mdash; updates every 4 hours</p>
