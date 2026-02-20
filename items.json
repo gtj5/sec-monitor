@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "Director-Executive Summit",
+      "url": "https://www.sec.gov/newsroom/meetings-events/director-executive-summit-2026",
+      "published": "2026-02-27 04:30 PM ET",
+      "summary": "SEC Chairman Paul Atkins will speak at the Director-Executive Summit co-hosted by the University of Texas School of Law and the McCombs School of Business.",
+      "created_at": "2026-02-20T16:44:54.579352+00:00"
+    },
+    {
+      "source": "open_meeting",
+      "title": "U.S. Chamber of Commerce Center for Capital Markets Competitiveness",
+      "url": "https://www.sec.gov/newsroom/meetings-events/us-chamber-commerce-center-capital-markets-competitiveness-2-23-26",
+      "published": "2026-02-23 05:00 PM ET",
+      "summary": "SEC Chairman Paul Atkins will give remarks and participate in a fireside chat at a U.S. Chamber of Commerce Center for Capital Markets Competitiveness event entitled Shaping the Future of Capital Formation: The INVEST Act and Beyond.",
+      "created_at": "2026-02-20T16:44:54.579118+00:00"
+    },
+    {
       "source": "litigation_release",
       "title": "Saumil Thakkar, Poorvesh Thakkar, et al.",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26483",
@@ -511,5 +527,5 @@
       "created_at": "2026-02-18 23:07:07"
     }
   ],
-  "last_updated": "2026-02-20T13:06:52.854335+00:00"
+  "last_updated": "2026-02-20T16:44:54.580490+00:00"
 }
