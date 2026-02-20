@@ -1,9 +1,11 @@
 # Never commit these
 .env
-*.db
 .last_run
 
-# Python environment — don't commit the whole installed library folder
+# Local database (replaced by items.json for GitHub Pages)
+*.db
+
+# Python environment
 venv/
 __pycache__/
 *.pyc

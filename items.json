@@ -1,0 +1,515 @@
+{
+  "items": [
+    {
+      "source": "litigation_release",
+      "title": "Saumil Thakkar, Poorvesh Thakkar, et al.",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26483",
+      "published": "Thu, 19 Feb 2026 13:41:23 -0500",
+      "summary": "Saumil Thakkar, Poorvesh Thakkar, et al.",
+      "created_at": "2026-02-20T02:49:42.061455+00:00"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Bluesky Eagle Capital Management Ltd.",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26484",
+      "published": "Thu, 19 Feb 2026 14:49:23 -0500",
+      "summary": "Bluesky Eagle Capital Management Ltd.",
+      "created_at": "2026-02-20T02:49:42.061452+00:00"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Cutter Financial Group, LLC and Jeffrey Cutter",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26485",
+      "published": "Thu, 19 Feb 2026 15:11:50 -0500",
+      "summary": "Cutter Financial Group, LLC and Jeffrey Cutter",
+      "created_at": "2026-02-20T02:49:42.061439+00:00"
+    },
+    {
+      "source": "open_meeting",
+      "title": "45th Annual Small Business Forum",
+      "url": "https://www.sec.gov/newsroom/meetings-events/45th-annual-small-business-forum",
+      "published": "2026-03-09 01:00 PM ET",
+      "summary": "The SEC will host its annual Small Business Forum to discuss capital formation for small businesses.",
+      "ai_reason": "",
+      "created_at": "2026-02-19 03:52:05"
+    },
+    {
+      "source": "open_meeting",
+      "title": "Small Business Capital Formation Advisory Committee Meeting",
+      "url": "https://www.sec.gov/newsroom/meetings-events/sbcfac-meeting-022426",
+      "published": "2026-02-24 10:00 AM ET",
+      "summary": "The SEC's Small Business Capital Formation Advisory Committee is holding a public meeting regarding matters relating to rules and regulations affecting small and emerging businesses and their investors under the federal securities laws.",
+      "ai_reason": "",
+      "created_at": "2026-02-19 03:52:05"
+    },
+    {
+      "source": "open_meeting",
+      "title": "Closed Meeting",
+      "url": "https://www.sec.gov/newsroom/meetings-events/closed-meeting-02-19-2026",
+      "published": "2026-02-19 02:00 PM ET",
+      "summary": "",
+      "ai_reason": "",
+      "created_at": "2026-02-19 03:52:05"
+    },
+    {
+      "source": "open_meeting",
+      "title": "ETHDenver",
+      "url": "https://www.sec.gov/newsroom/meetings-events/ethdenver",
+      "published": "2026-02-18 04:00 PM ET",
+      "summary": "Chairman Paul Atkins and Commissioner Hester Peirce will participate in ETHDenver.",
+      "ai_reason": "",
+      "created_at": "2026-02-19 03:52:05"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Muhammad Saad Shoukat; Gyunho Kim; Muhammad Arham Shoukat; Muhammad Shahwaiz Shoukat; Izunna Okonkwo; Daniyal Khan",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26458",
+      "published": "Tue, 06 Jan 2026 16:13:57 -0500",
+      "summary": "Muhammad Saad Shoukat; Gyunho Kim; Muhammad Arham Shoukat; Muhammad Shahwaiz Shoukat; Izunna Okonkwo; Daniyal Khan",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Guy Robert Elliott",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26459",
+      "published": "Fri, 09 Jan 2026 17:21:39 -0500",
+      "summary": "Guy Robert Elliott",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Hong (John) Wang and Precision Clinical Consulting, LLC",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26460",
+      "published": "Thu, 15 Jan 2026 11:19:37 -0500",
+      "summary": "Hong (John) Wang and Precision Clinical Consulting, LLC",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Sumit Rai; Kim deMora; SVN Med LLC; NVS Med Inc.; Onco Filtration, Inc.; Cancer Check Labs, LLC",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26461",
+      "published": "Thu, 15 Jan 2026 16:23:58 -0500",
+      "summary": "Sumit Rai; Kim deMora; SVN Med LLC; NVS Med Inc.; Onco Filtration, Inc.; Cancer Check Labs, LLC",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Matthew M. Motil, et al.",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26462",
+      "published": "Fri, 16 Jan 2026 14:17:04 -0500",
+      "summary": "Matthew M. Motil, et al.",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Joel B. Sofia",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26463",
+      "published": "Fri, 23 Jan 2026 12:56:50 -0500",
+      "summary": "Joel B. Sofia",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Lawrence Anthony DiMatteo; Vadim Komissarov; Lottery.com, Inc.; Matthew Clemenson; Ryan Dickinson",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26464",
+      "published": "Fri, 23 Jan 2026 16:45:52 -0500",
+      "summary": "Lawrence Anthony DiMatteo; Vadim Komissarov; Lottery.com, Inc.; Matthew Clemenson; Ryan Dickinson",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Gemini Trust Company, LLC",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26465",
+      "published": "Fri, 23 Jan 2026 16:45:53 -0500",
+      "summary": "Gemini Trust Company, LLC",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Brian J. Suthoff",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26466",
+      "published": "Mon, 26 Jan 2026 15:56:17 -0500",
+      "summary": "Brian J. Suthoff",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Saeid Jaberian",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26467",
+      "published": "Tue, 27 Jan 2026 11:03:38 -0500",
+      "summary": "Saeid Jaberian",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Shannon Illingworth and GP Solutions, Inc.",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26468",
+      "published": "Tue, 27 Jan 2026 16:10:44 -0500",
+      "summary": "Shannon Illingworth and GP Solutions, Inc.",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Anil Mathews; Rahul Agarwal; Kenneth M. Harlan; and MobileFuse, LLC",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26469",
+      "published": "Tue, 27 Jan 2026 16:47:17 -0500",
+      "summary": "Anil Mathews; Rahul Agarwal; Kenneth M. Harlan; and MobileFuse, LLC",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Vikram Luthar",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26470",
+      "published": "Tue, 27 Jan 2026 18:12:54 -0500",
+      "summary": "Vikram Luthar",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Dale Swanberg",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26471",
+      "published": "Thu, 29 Jan 2026 17:24:14 -0500",
+      "summary": "Dale Swanberg",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Satish Appalakutty; Lorven Funds; Lorven Advisors LLC; Vistalytics Inc.",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26472",
+      "published": "Thu, 29 Jan 2026 17:36:29 -0500",
+      "summary": "Satish Appalakutty; Lorven Funds; Lorven Advisors LLC; Vistalytics Inc.",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Kevin A. Van de Grift",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26473",
+      "published": "Fri, 30 Jan 2026 15:36:21 -0500",
+      "summary": "Kevin A. Van de Grift",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Ejiro Ode Okuma",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26474",
+      "published": "Wed, 04 Feb 2026 16:47:39 -0500",
+      "summary": "Ejiro Ode Okuma",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Brett Rosen; Deborah Braun; David M. Massey; RB Capital Partners, Inc.",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26475",
+      "published": "Wed, 04 Feb 2026 17:38:11 -0500",
+      "summary": "Brett Rosen; Deborah Braun; David M. Massey; RB Capital Partners, Inc.",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Marat Likhtenstein",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26476",
+      "published": "Thu, 05 Feb 2026 15:04:31 -0500",
+      "summary": "Marat Likhtenstein",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Gerald Shvartsman; Michael Shvartsman; Rocket One Capital LLC",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26477",
+      "published": "Thu, 05 Feb 2026 16:13:32 -0500",
+      "summary": "Gerald Shvartsman; Michael Shvartsman; Rocket One Capital LLC",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Ryan Squillante",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26478",
+      "published": "Thu, 05 Feb 2026 16:27:31 -0500",
+      "summary": "Ryan Squillante",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "CBA Pharma, Inc., Wayne Michael Putnam, Louis A. Carmichael",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26479",
+      "published": "Fri, 06 Feb 2026 14:13:23 -0500",
+      "summary": "CBA Pharma, Inc., Wayne Michael Putnam, Louis A. Carmichael",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Barrington Asset Management, Inc.; Gregory David Paris",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26480",
+      "published": "Tue, 10 Feb 2026 12:15:41 -0500",
+      "summary": "Barrington Asset Management, Inc.; Gregory David Paris",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "John David Gessin et al.",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26481",
+      "published": "Wed, 11 Feb 2026 12:40:56 -0500",
+      "summary": "John David Gessin et al.",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "litigation_release",
+      "title": "Nicholas Bowerman",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26482",
+      "published": "Wed, 11 Feb 2026 13:16:51 -0500",
+      "summary": "Nicholas Bowerman",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Charges Canadian Citizen With Fraud Schemes That Targeted Retail Investors on Discord",
+      "url": "https://www.sec.gov/newsroom/press-releases/2025-141-sec-charges-canadian-citizen-fraud-schemes-targeted-retail-investors-discord",
+      "published": "Wed, 10 Dec 2025 14:27:31 -0500",
+      "summary": "The Securities and Exchange Commission today charged Canadian citizen Nathan Gauvin and three entities he controls\u2014Blackridge, LLC, Gray Digital Capital Management USA, LLC, and Gray Digital Technologies, LLC\u2014with orchestrating two fraudulent securities\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Office of the Investor Advocate Delivers to Congress Report on Activities for Fiscal Year 2025",
+      "url": "https://www.sec.gov/newsroom/press-releases/2025-142-sec-office-investor-advocate-delivers-congress-report-activities-fiscal-year-2025",
+      "published": "Wed, 17 Dec 2025 13:05:00 -0500",
+      "summary": "The Securities and Exchange Commission\u2019s Office of the Investor Advocate today delivered its Report on Activities for the Fiscal Year 2025 to Congress, highlighting the initiatives and work of the office during the fiscal year.The report includes:An\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "Joshua T. White Named SEC Chief Economist",
+      "url": "https://www.sec.gov/newsroom/press-releases/2025-143-joshua-t-white-named-sec-chief-economist",
+      "published": "Wed, 17 Dec 2025 15:00:00 -0500",
+      "summary": "The Securities and Exchange Commission today announced that financial economist and academic scholar Dr. Joshua T. White will return to the agency beginning the week of Jan. 5, 2026, to serve as its Chief Economist and Director of the Division of\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Charges Three Purported Crypto Asset Trading Platforms and Four Investment Clubs with Scheme That Targeted Retail Investors on Social Media",
+      "url": "https://www.sec.gov/newsroom/press-releases/2025-144-sec-charges-three-purported-crypto-asset-trading-platforms-four-investment-clubs-scheme-targeted",
+      "published": "Mon, 22 Dec 2025 15:00:00 -0500",
+      "summary": "The Securities and Exchange Commission today filed charges against purported crypto asset trading platforms Morocoin Tech Corp., Berge Blockchain Technology Co. Ltd., and Cirkor Inc. and investment clubs AI Wealth Inc., Lane Wealth Inc., AI Investment\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Announces Retirement of Division of Corporation Finance Deputy Director Cicely LaMothe",
+      "url": "https://www.sec.gov/newsroom/press-releases/2025-145-sec-announces-retirement-division-corporation-finance-deputy-director-cicely-lamothe",
+      "published": "Mon, 29 Dec 2025 11:45:00 -0500",
+      "summary": "The Securities and Exchange Commission today announced that Cicely LaMothe, Deputy Director of the Division of Corporation Finance, has retired from the agency.\u201cCicely has gone above and beyond the call of duty over the past twenty-four years to serve\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "Deputy Director of Enforcement Nekia Hackworth Jones Concludes Her Tenure at the SEC",
+      "url": "https://www.sec.gov/newsroom/press-releases/2025-146-deputy-director-enforcement-nekia-hackworth-jones-concludes-her-tenure-sec",
+      "published": "Mon, 29 Dec 2025 13:36:34 -0500",
+      "summary": "The Securities and Exchange Commission today announced that Nekia Hackworth Jones, Deputy Director of the Division of Enforcement (Southeast), concluded her tenure with the agency on December 26, 2025.\u201cI am thankful to Nekia for answering the call to\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Proposes Amendments to the Small Entity Definitions for Investment Companies and Investment Advisers for Purposes of the Regulatory Flexibility Act",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-1-sec-proposes-amendments-small-entity-definitions-investment-companies-investment-advisers-purposes",
+      "published": "Wed, 07 Jan 2026 16:57:35 -0500",
+      "summary": "The Securities and Exchange Commission today proposed amendments to the rules that define which registered investment companies, investment advisers, and business development companies qualify as small entities for purposes of the Regulatory Flexibility\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Publishes Staff Report on Capital-Raising Dynamics",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-2-sec-publishes-staff-report-capital-raising-dynamics",
+      "published": "Thu, 08 Jan 2026 17:45:00 -0500",
+      "summary": "The Securities and Exchange Commission\u2019s Office of the Advocate for Small Business Capital Formation today published and delivered to Congress its&nbsp;2025 staff report that serves as a comprehensive and data-rich resource on capital-raising dynamics\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "SEC to Host Hybrid Event on Regulation S-P for Small Firms",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-3-sec-host-hybrid-event-regulation-s-p-small-firms",
+      "published": "Fri, 09 Jan 2026 11:33:41 -0500",
+      "summary": "The Securities and Exchange Commission today announced it will hold its third and final outreach event to help firms comply with amendments to Regulation S-P. The event, which is focused on small firms, is open to in-person or virtual attendance, and is\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "Paul Tzur and David Morrell Named Deputy Directors of the Division of Enforcement",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-4-paul-tzur-david-morrell-named-deputy-directors-division-enforcement",
+      "published": "Mon, 12 Jan 2026 13:56:42 -0500",
+      "summary": "The Securities and Exchange Commission today announced that Paul H. Tzur and David M. Morrell have been named as Deputy Directors of the Division of Enforcement. Mr. Tzur joined the Commission on January 6, 2026, as the Deputy Director overseeing the\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "J. Russell McGranahan Named SEC General Counsel",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-5-j-russell-mcgranahan-named-sec-general-counsel",
+      "published": "Thu, 15 Jan 2026 10:00:00 -0500",
+      "summary": "The Securities and Exchange Commission today announced that J. Russell \u201cRusty\u201d McGranahan has been named SEC General Counsel. As the SEC\u2019s chief legal officer, Mr. McGranahan will oversee the provision of legal expertise and advice to the Office of the\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "Keith E. Cassidy Named Director of the Division of Examinations",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-6-keith-e-cassidy-named-director-division-examinations",
+      "published": "Tue, 20 Jan 2026 07:15:48 -0500",
+      "summary": "The Securities and Exchange Commission today announced that Keith E. Cassidy has been appointed Director of the Division of Examinations. Mr. Cassidy has served as Acting Director since May 2024 and previously was the division\u2019s Deputy Director, Acting\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "Christina M. Thomas to Rejoin the Division of Corporation Finance as Deputy Director",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-7-christina-m-thomas-rejoin-division-corporation-finance-deputy-director",
+      "published": "Tue, 20 Jan 2026 14:42:00 -0500",
+      "summary": "The Securities and Exchange Commission today announced that Christina M. Thomas will rejoin the Division of Corporation Finance in February as deputy director and chief advisor on disclosure, policy, and rulemaking.\u201cChristina brings her deep technical\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "Division of Corporation Finance Names Senior Staff",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-8-division-corporation-finance-names-senior-staff",
+      "published": "Tue, 20 Jan 2026 15:07:00 -0500",
+      "summary": "The Securities and Exchange Commission today announced the senior team from the Division of Corporation Finance responsible for advising division Director James Moloney on all matters the division has before the Commission. These include rulemaking\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Seeks Candidates for Small Business Capital Formation Advisory Committee",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-9-sec-seeks-candidates-small-business-capital-formation-advisory-committee",
+      "published": "Wed, 21 Jan 2026 08:30:00 -0500",
+      "summary": "The Securities and Exchange Commission is seeking candidates to fill a limited number of vacancies on the agency\u2019s Small Business Capital Formation Advisory Committee, which provides advice and recommendations to the Commission on rules, regulations, and\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Seeks Candidates for Membership on the Investor Advisory Committee",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-10-sec-seeks-candidates-membership-investor-advisory-committee",
+      "published": "Thu, 22 Jan 2026 08:58:00 -0500",
+      "summary": "The Securities and Exchange Commission is seeking candidates for appointment as members of the SEC\u2019s Investor Advisory Committee, established pursuant to Section 39 of the Securities Exchange Act of 1934 to help protect investors and improve securities\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Approves 2026 PCAOB Budget and Accounting Support Fee",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-11-sec-approves-2026-pcaob-budget-accounting-support-fee",
+      "published": "Thu, 22 Jan 2026 11:52:00 -0500",
+      "summary": "The Securities and Exchange Commission today approved the 2026 budget for the Public Company Accounting Oversight Board (PCAOB) and the related accounting support fee.The 2026 PCAOB budget totals $362.1 million. The 2026 budget reflects a 9.4% ($37.6\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Small Business Advisory Committee to Continue Discussion on Regulatory Framework for Finders and Begin Exploring the Private Secondary Market",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-12-sec-small-business-advisory-committee-continue-discussion-regulatory-framework-finders-begin",
+      "published": "Thu, 22 Jan 2026 14:25:00 -0500",
+      "summary": "The Securities and Exchange Commission\u2019s Small Business Capital Formation Advisory Committee announced that it will hold a public meeting at the SEC Headquarters in Washington, D.C., on Tuesday, Feb. 24, 2026, at 10 a.m. ET. The meeting will also be\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "SEC and CFTC to Hold Joint Event on Harmonization, U.S. Financial Leadership in the Crypto Era",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-13",
+      "published": "Thu, 22 Jan 2026 15:50:56 -0500",
+      "summary": "Securities and Exchange Commission Chairman Paul S. Atkins and Commodity Futures Trading Commission Chairman Michael S. Selig will hold a joint event on Tuesday, Jan. 27, from 10 a.m. to 11 a.m. at CFTC headquarters to discuss harmonization between the\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "SEC and CFTC Reschedule Joint Event on Harmonization, U.S. Financial Leadership in the Crypto Era",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-14-sec-cftc-reschedule-joint-event-harmonization-us-financial-leadership-crypto-era",
+      "published": "Mon, 26 Jan 2026 10:12:31 -0500",
+      "summary": "Securities and Exchange Commission Chairman Paul S. Atkins and Commodity Futures Trading Commission Chairman Michael S. Selig will hold a joint event, previously scheduled for Jan. 27, now rescheduled for Thursday, Jan. 29, from 2 p.m. to 3 p.m. at CFTC\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Charges ADM and Three Former Executives with Accounting and Disclosure Fraud",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-15-sec-charges-adm-three-former-executives-accounting-disclosure-fraud",
+      "published": "Tue, 27 Jan 2026 16:38:34 -0500",
+      "summary": "The Securities and Exchange Commission today filed settled charges against Archer-Daniels-Midland Company (ADM) and its former executives, Vince Macciocchi and Ray Young, and a litigated action against its former executive Vikram Luthar, for&nbsp;\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Appoints New Chairman and Board Members to PCAOB",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-16-sec-appoints-new-chairman-board-members-pcaob",
+      "published": "Fri, 30 Jan 2026 15:59:00 -0500",
+      "summary": "The Securities and Exchange Commission today announced the appointment of Demetrios (Jim) Logothetis, as Chairman, and Mark Calabria, Kyle Hauptman, and Steven Laughton, as Board members, of the Public Company Accounting Oversight Board (PCAOB). George\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Publishes Data on Exchange Traded Funds and Fund Mergers; Updated Statistics on Municipal Advisors, Transfer Agents, and Security-Based Swap Dealers",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-17-sec-publishes-data-exchange-traded-funds-fund-mergers-updated-statistics-municipal-advisors-transfer",
+      "published": "Thu, 05 Feb 2026 13:45:00 -0500",
+      "summary": "The Securities and Exchange Commission\u2019s Division of Economic and Risk Analysis (DERA) has published two new reports on exchange traded funds and fund mergers, and updated statistics and data visualizations on municipal advisors, transfer agents, and\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Announces 45th Annual Small Business Forum to Improve Capital-Raising Policy",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-18-sec-announces-45th-annual-small-business-forum-improve-capital-raising-policy",
+      "published": "Fri, 13 Feb 2026 10:45:00 -0500",
+      "summary": "The Securities and Exchange Commission will host the agency\u2019s 45th Annual Government Business Forum on Small Business Capital Formation at SEC headquarters in Washington, D.C., on March 9 from 1 p.m. to 5 p.m. ET. The event will be webcast live.&nbsp;\u2026",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Proposes Amendments to Reduce Burdens in Reporting of Fund Portfolio Holdings",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-19-sec-proposes-amendments-reduce-burdens-reporting-fund-portfolio-holdings",
+      "published": "Wed, 18 Feb 2026 14:30:00 -0500",
+      "summary": "",
+      "ai_reason": "",
+      "created_at": "2026-02-18 23:07:07"
+    }
+  ],
+  "last_updated": "2026-02-20T02:49:42.275600+00:00"
+}

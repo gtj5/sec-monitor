@@ -10,14 +10,15 @@ Then open: http://localhost:8080
 
 import csv
 import io
+import json
 import os
 from datetime import datetime
+from pathlib import Path
 from flask import Flask, redirect, url_for, make_response
 from flask import render_template_string
 from apscheduler.schedulers.background import BackgroundScheduler
 from dotenv import load_dotenv
 
-import database
 import pipeline
 
 load_dotenv()
@@ -252,24 +253,21 @@ TEMPLATE = """
 # Routes
 # -----------------------------------------------------------------
 
+def load_items():
+    """Read items from items.json."""
+    p = Path("items.json")
+    if p.exists():
+        return json.loads(p.read_text())
+    return {"items": [], "last_updated": None}
+
+
 @app.route("/")
 def index():
     """Main dashboard: show all saved items, newest first."""
-    with database.get_connection() as conn:
-        rows = conn.execute(
-            "SELECT source, title, url, published, summary, ai_reason, created_at "
-            "FROM items ORDER BY id DESC"
-        ).fetchall()
-
-    columns = ["source", "title", "url", "published", "summary", "ai_reason", "created_at"]
-    items = [dict(zip(columns, row)) for row in rows]
-
-    try:
-        with open(".last_run", "r") as f:
-            last_run = f.read().strip()
-    except FileNotFoundError:
-        last_run = "Never"
-
+    data     = load_items()
+    items    = data.get("items", [])
+    last_raw = data.get("last_updated", "")
+    last_run = last_raw[:16].replace("T", " ") + " UTC" if last_raw else "Never"
     return render_template_string(TEMPLATE, items=items, last_run=last_run)
 
 
@@ -283,25 +281,18 @@ def run_now():
 
 @app.route("/export")
 def export_csv():
-    """
-    Download all items as a CSV file.
+    """Download all items as a CSV file."""
+    data  = load_items()
+    items = data.get("items", [])
 
-    make_response lets us set headers on the response.
-    The Content-Disposition header tells the browser to treat it as
-    a file download rather than displaying it in the browser window.
-    """
-    with database.get_connection() as conn:
-        rows = conn.execute(
-            "SELECT source, title, url, published, created_at "
-            "FROM items ORDER BY id DESC"
-        ).fetchall()
-
-    # io.StringIO is an in-memory text buffer — like a file, but in RAM.
-    # We write CSV into it, then send the contents as a response.
     output = io.StringIO()
     writer = csv.writer(output)
     writer.writerow(["Type", "Title", "URL", "Published", "Saved"])
-    writer.writerows(rows)
+    for item in items:
+        writer.writerow([
+            item.get("source"), item.get("title"), item.get("url"),
+            item.get("published"), item.get("created_at", "")[:10],
+        ])
 
     response = make_response(output.getvalue())
     response.headers["Content-Type"] = "text/csv"
@@ -346,17 +337,16 @@ def start_scheduler():
 # -----------------------------------------------------------------
 
 if __name__ == "__main__":
-    database.init_db()
     scheduler = start_scheduler()
 
-    with database.get_connection() as conn:
-        count = conn.execute("SELECT COUNT(*) FROM items").fetchone()[0]
+    data  = load_items()
+    count = len(data.get("items", []))
 
     if count == 0:
-        print("[Startup] Database empty — running initial pipeline fetch...")
+        print("[Startup] No items found — running initial pipeline fetch...")
         pipeline.run_pipeline()
         _record_run_time()
     else:
-        print(f"[Startup] Database has {count} items — skipping initial fetch.")
+        print(f"[Startup] Loaded {count} items from items.json.")
 
     app.run(debug=False, use_reloader=False, port=8080)
