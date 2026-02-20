@@ -28,7 +28,23 @@
     }
     .nav-title { font-size: 0.95rem; font-weight: 600; color: #e6edf3; letter-spacing: 0.01em; }
     .nav-sub   { font-size: 0.75rem; color: #484f58; }
-    .nav-right { margin-left: auto; font-size: 0.75rem; color: #484f58; }
+    .nav-right { margin-left: auto; display: flex; align-items: center; gap: 0.5rem; }
+    .btn {
+      display: inline-block;
+      padding: 0.3rem 0.85rem;
+      font-size: 0.78rem;
+      font-weight: 500;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      border: 1px solid #30363d;
+      background: transparent;
+      color: #c9d1d9;
+      transition: background 0.15s, border-color 0.15s;
+      line-height: 1.6;
+    }
+    .btn:hover { background: #161b22; border-color: #8b949e; }
+    .nav-updated { font-size: 0.75rem; color: #484f58; }
     .wrap { max-width: 1200px; margin: 0 auto; padding: 2rem; }
     .stats {
       display: grid;
@@ -82,7 +98,10 @@
   <nav class="nav">
     <span class="nav-title">SEC Monitor</span>
     <span class="nav-sub">Press releases &middot; Litigation &middot; Open meetings</span>
-    <div class="nav-right">Updated 2026-02-20 02:49 UTC</div>
+    <div class="nav-right">
+      <span class="nav-updated">Updated 2026-02-20 02:49 UTC</span>
+      <button class="btn" onclick="downloadCSV()">Download CSV</button>
+    </div>
   </nav>
 
   <div class="wrap">
@@ -632,5 +651,31 @@
     <p class="site-footer">Data sourced from SEC.gov &mdash; updated every 4 hours via GitHub Actions</p>
   </div>
 
+  <script>
+    function downloadCSV() {
+      // Walk the table rows and pull out cell text, then trigger a download.
+      // This runs entirely in the browser — no server needed.
+      const rows  = document.querySelectorAll("tbody tr");
+      const lines = [["Type","Title","URL","Published","Saved"]];
+
+      rows.forEach(row => {
+        const cells = row.querySelectorAll("td");
+        const type  = cells[1].innerText.trim();
+        const link  = cells[2].querySelector("a");
+        const title = link ? link.innerText.trim() : "";
+        const url   = link ? link.href : "";
+        const pub   = cells[0].innerText.trim();
+        const saved = cells[3].innerText.trim();
+        lines.push([type, title, url, pub, saved]);
+      });
+
+      const csv  = lines.map(r => r.map(v => `"${v.replace(/"/g,'""')}"`).join(",")).join("\n");
+      const blob = new Blob([csv], { type: "text/csv" });
+      const a    = document.createElement("a");
+      a.href     = URL.createObjectURL(blob);
+      a.download = "sec_items.csv";
+      a.click();
+    }
+  </script>
 </body>
 </html>
