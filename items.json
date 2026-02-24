@@ -1,6 +1,26 @@
 {
   "items": [
     {
+      "source": "litigation_release",
+      "title": "Ian G. Bell",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26488",
+      "published": "Tue, 24 Feb 2026 09:55:35 -0500",
+      "summary": "Ian G. Bell",
+      "created_at": "2026-02-24T17:09:28.493933+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a bare personnel name with no substantive content describing any SEC action, decision, or announcement."
+    },
+    {
+      "source": "press_release",
+      "title": "SEC\u2019s Division of Enforcement Announces Updates to Enforcement Manual",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-20-secs-division-enforcement-announces-updates-enforcement-manual",
+      "published": "Tue, 24 Feb 2026 08:55:52 -0500",
+      "summary": "The Securities and Exchange Commission\u2019s Division of Enforcement today announced significant updates to its Enforcement Manual. These updates underscore the Commission\u2019s ongoing commitment to fairness, transparency, and efficiency in the investigations\u2026",
+      "created_at": "2026-02-24T17:09:28.350847+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "Routine procedural update to internal enforcement guidelines that reflects standard administrative management rather than a substantive policy shift or enforcement action with market impact."
+    },
+    {
       "source": "open_meeting",
       "title": "Private Markets Roundtable",
       "url": "https://www.sec.gov/newsroom/meetings-events/private-markets-roundtable",
@@ -675,5 +695,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-02-24T13:15:08.282535+00:00"
+  "last_updated": "2026-02-24T17:09:30.851794+00:00"
 }
