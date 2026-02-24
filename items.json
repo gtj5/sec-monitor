@@ -2,6 +2,16 @@
   "items": [
     {
       "source": "litigation_release",
+      "title": "Joseph C. Lewis, Carolyn W. Carter, Patrick J. O\u2019Connor, and Bryan L. Waugh",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26489",
+      "published": "Tue, 24 Feb 2026 12:19:27 -0500",
+      "summary": "Joseph C. Lewis, Carolyn W. Carter, Patrick J. O\u2019Connor, and Bryan L. Waugh",
+      "created_at": "2026-02-24T20:40:54.002896+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a routine personnel or administrative announcement listing individual names without substantive detail about enforcement action, rule changes, or policy matters."
+    },
+    {
+      "source": "litigation_release",
       "title": "Ian G. Bell",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26488",
       "published": "Tue, 24 Feb 2026 09:55:35 -0500",
@@ -695,5 +705,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-02-24T17:09:30.851794+00:00"
+  "last_updated": "2026-02-24T20:40:55.911548+00:00"
 }
