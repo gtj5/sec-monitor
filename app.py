@@ -156,6 +156,19 @@ TEMPLATE = """
     td.title a:hover { color: #79c0ff; }
     .description { color: #484f58; font-size: 0.78rem; margin-top: 0.3rem; line-height: 1.5; }
 
+    /* ---- AI score ---- */
+    td.ai-score-cell { text-align: center; width: 5rem; vertical-align: middle; }
+    .ai-score        { font-size: 1rem; font-weight: 700; }
+    .score-of        { font-size: 0.65rem; color: #484f58; }
+    .score-none      { color: #30363d; }
+
+    /* ---- User stars ---- */
+    td.user-score-cell { text-align: center; width: 7rem; vertical-align: middle; }
+    .stars  { display: inline-flex; gap: 2px; cursor: pointer; }
+    .star   { font-size: 1.1rem; color: #30363d; transition: color 0.1s; user-select: none; }
+    .star.on     { color: #e3b341; }
+    .star:hover  { color: #e3b341; }
+
     /* ---- Footer ---- */
     .site-footer { margin-top: 2.5rem; text-align: center; font-size: 0.72rem; color: #30363d; }
   </style>
@@ -166,10 +179,11 @@ TEMPLATE = """
     <span class="nav-title">SEC Monitor</span>
     <span class="nav-sub">Press releases &middot; Litigation &middot; Open meetings</span>
     <div class="nav-right">
+      <span style="font-size:0.75rem; color:#484f58;">Last run: {{ last_run }}</span>
       <form method="POST" action="/run" style="margin:0;">
         <button type="submit" class="btn btn-primary">Refresh now</button>
       </form>
-      <a href="/export" class="btn btn-ghost">Download CSV</a>
+      <button class="btn btn-ghost" onclick="downloadCSV()">Download CSV</button>
     </div>
   </nav>
 
@@ -196,7 +210,6 @@ TEMPLATE = """
 
     <div class="toolbar">
       <span style="font-size:0.78rem; color:#484f58;">{{ items|length }} items</span>
-      <span class="last-run">Last run: {{ last_run }}</span>
     </div>
 
     {% if items %}
@@ -207,12 +220,14 @@ TEMPLATE = """
             <th>Date</th>
             <th>Type</th>
             <th>Item</th>
+            <th title="AI newsworthiness score 1–5">AI Score</th>
+            <th title="Your personal newsworthiness rating">My Score</th>
             <th>Saved</th>
           </tr>
         </thead>
         <tbody>
           {% for item in items %}
-          <tr>
+          <tr data-url="{{ item.url }}">
             <td class="date">{{ item.published or '&mdash;' }}</td>
             <td class="type">
               {% if item.source == 'press_release' %}
@@ -231,7 +246,26 @@ TEMPLATE = """
                 <div class="description">{{ item.summary[:200] }}{% if item.summary|length > 200 %}…{% endif %}</div>
               {% endif %}
             </td>
-            <td class="date">{{ item.created_at }}</td>
+            <td class="ai-score-cell">
+              {% if item.ai_score %}
+                {% set colors = {1: '#484f58', 2: '#58a6ff', 3: '#e3b341', 4: '#f0883e', 5: '#ff7b72'} %}
+                <span class="ai-score" style="color:{{ colors[item.ai_score] }}" title="{{ item.ai_score_reason or '' }}">
+                  {{ item.ai_score }}<span class="score-of">/5</span>
+                </span>
+              {% else %}
+                <span class="score-none">&mdash;</span>
+              {% endif %}
+            </td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="{{ item.url }}">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
+            <td class="date">{{ item.created_at[:10] }}</td>
           </tr>
           {% endfor %}
         </tbody>
@@ -244,6 +278,73 @@ TEMPLATE = """
     <p class="site-footer">Data sourced from SEC.gov &mdash; updates every 4 hours</p>
   </div>
 
+  <script>
+    // ---- User star ratings (persisted in localStorage) ----
+
+    function getScore(url) {
+      return parseInt(localStorage.getItem('score:' + url) || '0');
+    }
+    function setScore(url, val) {
+      localStorage.setItem('score:' + url, val);
+    }
+    function renderStars(container, score) {
+      container.querySelectorAll('.star').forEach((s, i) => {
+        s.classList.toggle('on', i < score);
+      });
+    }
+    function initStars() {
+      document.querySelectorAll('.stars').forEach(container => {
+        const url   = container.dataset.url;
+        const score = getScore(url);
+        renderStars(container, score);
+
+        container.querySelectorAll('.star').forEach(star => {
+          star.addEventListener('mouseenter', () => {
+            renderStars(container, parseInt(star.dataset.v));
+          });
+          container.addEventListener('mouseleave', () => {
+            renderStars(container, getScore(url));
+          });
+          star.addEventListener('click', () => {
+            const val     = parseInt(star.dataset.v);
+            const current = getScore(url);
+            const next    = current === val ? 0 : val;
+            setScore(url, next);
+            renderStars(container, next);
+          });
+        });
+      });
+    }
+
+    // ---- CSV export (includes both scores) ----
+
+    function downloadCSV() {
+      const rows  = document.querySelectorAll('tbody tr[data-url]');
+      const lines = [["Type","Title","URL","Published","AI Score","My Score","Saved"]];
+
+      rows.forEach(row => {
+        const cells   = row.querySelectorAll('td');
+        const url     = row.dataset.url;
+        const type    = cells[1].innerText.trim();
+        const link    = cells[2].querySelector('a');
+        const title   = link ? link.innerText.trim() : '';
+        const pub     = cells[0].innerText.trim();
+        const aiScore = cells[3].querySelector('.ai-score')?.innerText.replace('/5','').trim() || '';
+        const myScore = getScore(url) || '';
+        const saved   = cells[5].innerText.trim();
+        lines.push([type, title, url, pub, aiScore, myScore, saved]);
+      });
+
+      const csv  = lines.map(r => r.map(v => `"${String(v).replace(/"/g,'""')}"`).join(',')).join('\n');
+      const blob = new Blob([csv], { type: 'text/csv' });
+      const a    = document.createElement('a');
+      a.href     = URL.createObjectURL(blob);
+      a.download = 'sec_items.csv';
+      a.click();
+    }
+
+    initStars();
+  </script>
 </body>
 </html>
 """

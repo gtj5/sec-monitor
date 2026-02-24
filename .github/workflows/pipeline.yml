@@ -22,9 +22,11 @@ jobs:
           python-version: '3.13'
 
       - name: Install dependencies
-        run: pip install feedparser requests beautifulsoup4 python-dotenv
+        run: pip install feedparser requests beautifulsoup4 python-dotenv anthropic
 
-      - name: Fetch SEC items
+      - name: Fetch and score SEC items
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python pipeline.py
 
       - name: Generate static site

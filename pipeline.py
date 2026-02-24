@@ -6,9 +6,11 @@ Runs as a GitHub Actions scheduled job, or locally via: python pipeline.py
 """
 
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 
+import anthropic
 import feedparser
 import requests
 from bs4 import BeautifulSoup
@@ -120,6 +122,56 @@ def fetch_meeting_items():
 
 
 # -----------------------------------------------------------------
+# AI scoring
+# -----------------------------------------------------------------
+
+SCORE_PROMPT = """You are a research assistant for a journalist covering the SEC and financial regulation.
+
+Rate the newsworthiness of this SEC item on a scale of 1–5 using this rubric:
+  1 = Routine administrative (personnel announcements, budget approvals, procedural notices)
+  2 = Standard activity (routine enforcement against individuals, minor settlements)
+  3 = Notable (significant enforcement action, meaningful rule proposal, advisory findings)
+  4 = Important (major policy change, large enforcement with broad market impact, systemic issue)
+  5 = Break immediately or investigate (major fraud, systemic risk, market-moving news, scandal)
+
+Title: {title}
+Summary: {summary}
+
+Respond with JSON only — no other text:
+{{"score": <integer 1-5>, "reason": "<one sentence>"}}"""
+
+
+def score_item(title, summary):
+    """
+    Ask Claude Haiku to rate an item's newsworthiness 1–5.
+    Returns (score: int, reason: str) or (None, "") if the API key is absent.
+    """
+    api_key = os.getenv("ANTHROPIC_API_KEY")
+    if not api_key:
+        return None, ""
+
+    client = anthropic.Anthropic(api_key=api_key)
+    msg    = client.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=100,
+        messages=[{"role": "user", "content": SCORE_PROMPT.format(
+            title=title, summary=summary or title
+        )}],
+    )
+    raw = msg.content[0].text.strip()
+
+    # Strip markdown fences if present
+    if raw.startswith("```"):
+        raw = raw.split("```")[1].lstrip("json").strip()
+
+    try:
+        result = json.loads(raw)
+        return int(result.get("score", 0)), result.get("reason", "")
+    except (json.JSONDecodeError, ValueError):
+        return None, ""
+
+
+# -----------------------------------------------------------------
 # Orchestration
 # -----------------------------------------------------------------
 
@@ -141,9 +193,18 @@ def run_pipeline():
         if item["url"] in existing_urls:
             continue
         new_count += 1
+
+        # Score the item before saving
+        ai_score, ai_reason = score_item(item["title"], item.get("summary", ""))
+        item["ai_score"]        = ai_score
+        item["ai_score_reason"] = ai_reason
+        if ai_score:
+            print(f"    ✓ Saved [{ai_score}/5]: {item['title'][:60]}")
+        else:
+            print(f"    ✓ Saved [no score]: {item['title'][:60]}")
+
         data["items"].insert(0, item)   # newest first
         existing_urls.add(item["url"])
-        print(f"    ✓ Saved: {item['title'][:70]}")
 
     save_data(data)
     print(f"\n=== Done: {new_count} new items saved ===\n")
@@ -151,3 +212,4 @@ def run_pipeline():
 
 if __name__ == "__main__":
     run_pipeline()
+

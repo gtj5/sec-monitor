@@ -26,44 +26,30 @@
       background: #0d1117;
       z-index: 10;
     }
-    .nav-title { font-size: 0.95rem; font-weight: 600; color: #e6edf3; letter-spacing: 0.01em; }
-    .nav-sub   { font-size: 0.75rem; color: #484f58; }
-    .nav-right { margin-left: auto; display: flex; align-items: center; gap: 0.5rem; }
+    .nav-title  { font-size: 0.95rem; font-weight: 600; color: #e6edf3; letter-spacing: 0.01em; }
+    .nav-sub    { font-size: 0.75rem; color: #484f58; }
+    .nav-right  { margin-left: auto; display: flex; align-items: center; gap: 0.5rem; }
+    .nav-updated { font-size: 0.75rem; color: #484f58; }
     .btn {
-      display: inline-block;
-      padding: 0.3rem 0.85rem;
-      font-size: 0.78rem;
-      font-weight: 500;
-      border-radius: 6px;
-      cursor: pointer;
-      text-decoration: none;
-      border: 1px solid #30363d;
-      background: transparent;
-      color: #c9d1d9;
-      transition: background 0.15s, border-color 0.15s;
-      line-height: 1.6;
+      display: inline-block; padding: 0.3rem 0.85rem; font-size: 0.78rem;
+      font-weight: 500; border-radius: 6px; cursor: pointer;
+      text-decoration: none; border: 1px solid #30363d;
+      background: transparent; color: #c9d1d9;
+      transition: background 0.15s, border-color 0.15s; line-height: 1.6;
     }
     .btn:hover { background: #161b22; border-color: #8b949e; }
-    .nav-updated { font-size: 0.75rem; color: #484f58; }
-    .wrap { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+    .wrap { max-width: 1300px; margin: 0 auto; padding: 2rem; }
     .stats {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 1rem;
-      margin-bottom: 1.75rem;
+      display: grid; grid-template-columns: repeat(4, 1fr);
+      gap: 1rem; margin-bottom: 1.75rem;
     }
     .stat { background: #161b22; border: 1px solid #21262d; border-radius: 8px; padding: 1rem 1.25rem; }
     .stat-number { font-size: 1.75rem; font-weight: 700; color: #e6edf3; line-height: 1; }
     .stat-label  { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: #484f58; margin-top: 0.35rem; }
     .badge {
-      display: inline-block;
-      padding: 0.18rem 0.6rem;
-      border-radius: 20px;
-      font-size: 0.67rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      white-space: nowrap;
+      display: inline-block; padding: 0.18rem 0.6rem; border-radius: 20px;
+      font-size: 0.67rem; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.05em; white-space: nowrap;
     }
     .badge-press   { background: #0d2044; color: #79c0ff; border: 1px solid #1f6feb; }
     .badge-litig   { background: #2d1215; color: #ff7b72; border: 1px solid #da3633; }
@@ -71,26 +57,33 @@
     .table-wrap { background: #161b22; border: 1px solid #21262d; border-radius: 8px; overflow: hidden; }
     table { width: 100%; border-collapse: collapse; }
     thead th {
-      background: #0d1117;
-      padding: 0.6rem 1rem;
-      text-align: left;
-      font-size: 0.68rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.07em;
-      color: #484f58;
-      border-bottom: 1px solid #21262d;
+      background: #0d1117; padding: 0.6rem 1rem; text-align: left;
+      font-size: 0.68rem; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.07em; color: #484f58; border-bottom: 1px solid #21262d;
+      cursor: default;
     }
     tbody tr { border-bottom: 1px solid #21262d; transition: background 0.1s; }
     tbody tr:last-child { border-bottom: none; }
     tbody tr:hover { background: #1c2128; }
-    td { padding: 0.7rem 1rem; vertical-align: top; }
-    td.date  { white-space: nowrap; color: #484f58; font-size: 0.74rem; padding-top: 0.85rem; width: 11rem; }
-    td.type  { padding-top: 0.85rem; width: 8.5rem; }
-    td.title a { text-decoration: none; color: #c9d1d9; font-weight: 500; }
+    td { padding: 0.7rem 1rem; vertical-align: middle; }
+    td.date          { white-space: nowrap; color: #484f58; font-size: 0.74rem; width: 11rem; }
+    td.type          { width: 8.5rem; }
+    td.title         { vertical-align: top; padding-top: 0.75rem; }
+    td.title a       { text-decoration: none; color: #c9d1d9; font-weight: 500; }
     td.title a:hover { color: #79c0ff; }
-    .description { color: #484f58; font-size: 0.78rem; margin-top: 0.3rem; line-height: 1.5; }
-    .site-footer { margin-top: 2.5rem; text-align: center; font-size: 0.72rem; color: #30363d; }
+    .description     { color: #484f58; font-size: 0.78rem; margin-top: 0.3rem; line-height: 1.5; }
+    /* AI score */
+    td.ai-score-cell { text-align: center; width: 5rem; }
+    .ai-score        { font-size: 1rem; font-weight: 700; }
+    .score-of        { font-size: 0.65rem; color: #484f58; }
+    .score-none      { color: #30363d; }
+    /* User stars */
+    td.user-score-cell { text-align: center; width: 7rem; }
+    .stars           { display: inline-flex; gap: 2px; cursor: pointer; }
+    .star            { font-size: 1.1rem; color: #30363d; transition: color 0.1s; user-select: none; }
+    .star.on         { color: #e3b341; }
+    .star:hover      { color: #e3b341; }
+    .site-footer     { margin-top: 2.5rem; text-align: center; font-size: 0.72rem; color: #30363d; }
   </style>
 </head>
 <body>
@@ -99,7 +92,7 @@
     <span class="nav-title">SEC Monitor</span>
     <span class="nav-sub">Press releases &middot; Litigation &middot; Open meetings</span>
     <div class="nav-right">
-      <span class="nav-updated">Updated 2026-02-23 20:49 UTC</span>
+      <span class="nav-updated">Updated 2026-02-24 00:21 UTC</span>
       <button class="btn" onclick="downloadCSV()">Download CSV</button>
     </div>
   </nav>
@@ -107,7 +100,7 @@
   <div class="wrap">
     <div class="stats">
       <div class="stat">
-        <div class="stat-number">61</div>
+        <div class="stat-number">62</div>
         <div class="stat-label">Total items</div>
       </div>
       <div class="stat">
@@ -115,7 +108,7 @@
         <div class="stat-label">Press releases</div>
       </div>
       <div class="stat">
-        <div class="stat-number">29</div>
+        <div class="stat-number">30</div>
         <div class="stat-label">Litigation</div>
       </div>
       <div class="stat">
@@ -128,555 +121,1191 @@
     <div class="table-wrap">
       <table>
         <thead>
-          <tr><th>Date</th><th>Type</th><th>Item</th><th>Saved</th></tr>
+          <tr>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Item</th>
+            <th title="AI newsworthiness score 1–5">AI Score</th>
+            <th title="Your personal newsworthiness rating">My Score</th>
+            <th>Saved</th>
+          </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/meetings-events/private-markets-roundtable">
             <td class="date">2026-03-04 01:30 PM ET</td>
             <td class="type"><span class="badge badge-meeting">Meeting</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/meetings-events/private-markets-roundtable" target="_blank" rel="noopener">Private Markets Roundtable</a>
               <div class="description">As retail access to private markets accelerates, the SEC is hosting a roundtable to discuss governance, valuation, and other considerations with the aim of promoting responsible retailization.</div>
             </td>
-            <td class="date">2026-02-23</td>
-          </tr>
-          <tr>
-            <td class="date">Fri, 20 Feb 2026 16:45:25 -0500</td>
-            <td class="type"><span class="badge badge-litig">Litigation</span></td>
-            <td class="title">
-              <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26486" target="_blank" rel="noopener">C-Hear, Inc.; Adena Harmon</a>
-              
+            <td class="ai-score-cell"><span class="ai-score" style="color:#58a6ff" title="A roundtable discussion is routine administrative activity, though the topic of retail private markets access has regulatory relevance that could merit monitoring for any resulting policy proposals.">2<span class="score-of">/5</span></span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/meetings-events/private-markets-roundtable">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
             </td>
-            <td class="date">2026-02-21</td>
+            <td class="date">2026-02-24</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/meetings-events/director-executive-summit-2026">
             <td class="date">2026-02-27 04:30 PM ET</td>
             <td class="type"><span class="badge badge-meeting">Meeting</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/meetings-events/director-executive-summit-2026" target="_blank" rel="noopener">Director-Executive Summit</a>
               <div class="description">SEC Chairman Paul Atkins will speak at the Director-Executive Summit co-hosted by the University of Texas School of Law and the McCombs School of Business.</div>
             </td>
-            <td class="date">2026-02-20</td>
+            <td class="ai-score-cell"><span class="ai-score" style="color:#484f58" title="This is a routine administrative notice of a speaking engagement with no policy announcements, enforcement actions, or regulatory developments indicated.">1<span class="score-of">/5</span></span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/meetings-events/director-executive-summit-2026">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
+            <td class="date">2026-02-24</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/meetings-events/us-chamber-commerce-center-capital-markets-competitiveness-2-23-26">
             <td class="date">2026-02-23 05:00 PM ET</td>
             <td class="type"><span class="badge badge-meeting">Meeting</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/meetings-events/us-chamber-commerce-center-capital-markets-competitiveness-2-23-26" target="_blank" rel="noopener">U.S. Chamber of Commerce Center for Capital Markets Competitiveness</a>
               <div class="description">SEC Chairman Paul Atkins will give remarks and participate in a fireside chat at a U.S. Chamber of Commerce Center for Capital Markets Competitiveness event entitled Shaping the Future of Capital Form…</div>
             </td>
-            <td class="date">2026-02-20</td>
+            <td class="ai-score-cell"><span class="ai-score" style="color:#484f58" title="This is a routine announcement of a scheduled speaking engagement by SEC leadership at an industry conference with no substantive policy announcement or regulatory action.">1<span class="score-of">/5</span></span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/meetings-events/us-chamber-commerce-center-capital-markets-competitiveness-2-23-26">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
+            <td class="date">2026-02-24</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26486">
+            <td class="date">Fri, 20 Feb 2026 16:45:25 -0500</td>
+            <td class="type"><span class="badge badge-litig">Litigation</span></td>
+            <td class="title">
+              <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26486" target="_blank" rel="noopener">C-Hear, Inc.; Adena Harmon</a>
+              
+            </td>
+            <td class="ai-score-cell"><span class="ai-score" style="color:#484f58" title="This appears to be a routine administrative notice regarding a company and individual with minimal context provided, lacking details about enforcement action, settlements, or policy significance.">1<span class="score-of">/5</span></span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26486">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
+            <td class="date">2026-02-24</td>
+          </tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26487">
+            <td class="date">Mon, 23 Feb 2026 16:02:13 -0500</td>
+            <td class="type"><span class="badge badge-litig">Litigation</span></td>
+            <td class="title">
+              <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26487" target="_blank" rel="noopener">Christopher B. Ferguson and Brian P. McFadden</a>
+              
+            </td>
+            <td class="ai-score-cell"><span class="ai-score" style="color:#484f58" title="This appears to be a personnel announcement or routine administrative notice with minimal content provided and no substantive regulatory or enforcement information.">1<span class="score-of">/5</span></span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26487">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
+            <td class="date">2026-02-24</td>
+          </tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26483">
             <td class="date">Thu, 19 Feb 2026 13:41:23 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26483" target="_blank" rel="noopener">Saumil Thakkar, Poorvesh Thakkar, et al.</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26483">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-20</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26484">
             <td class="date">Thu, 19 Feb 2026 14:49:23 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26484" target="_blank" rel="noopener">Bluesky Eagle Capital Management Ltd.</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26484">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-20</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26485">
             <td class="date">Thu, 19 Feb 2026 15:11:50 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26485" target="_blank" rel="noopener">Cutter Financial Group, LLC and Jeffrey Cutter</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26485">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-20</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/meetings-events/45th-annual-small-business-forum">
             <td class="date">2026-03-09 01:00 PM ET</td>
             <td class="type"><span class="badge badge-meeting">Meeting</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/meetings-events/45th-annual-small-business-forum" target="_blank" rel="noopener">45th Annual Small Business Forum</a>
               <div class="description">The SEC will host its annual Small Business Forum to discuss capital formation for small businesses.</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/meetings-events/45th-annual-small-business-forum">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-19</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/meetings-events/sbcfac-meeting-022426">
             <td class="date">2026-02-24 10:00 AM ET</td>
             <td class="type"><span class="badge badge-meeting">Meeting</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/meetings-events/sbcfac-meeting-022426" target="_blank" rel="noopener">Small Business Capital Formation Advisory Committee Meeting</a>
               <div class="description">The SEC's Small Business Capital Formation Advisory Committee is holding a public meeting regarding matters relating to rules and regulations affecting small and emerging businesses and their investor…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/meetings-events/sbcfac-meeting-022426">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-19</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/meetings-events/closed-meeting-02-19-2026">
             <td class="date">2026-02-19 02:00 PM ET</td>
             <td class="type"><span class="badge badge-meeting">Meeting</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/meetings-events/closed-meeting-02-19-2026" target="_blank" rel="noopener">Closed Meeting</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/meetings-events/closed-meeting-02-19-2026">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-19</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/meetings-events/ethdenver">
             <td class="date">2026-02-18 04:00 PM ET</td>
             <td class="type"><span class="badge badge-meeting">Meeting</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/meetings-events/ethdenver" target="_blank" rel="noopener">ETHDenver</a>
               <div class="description">Chairman Paul Atkins and Commissioner Hester Peirce will participate in ETHDenver.</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/meetings-events/ethdenver">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-19</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26458">
             <td class="date">Tue, 06 Jan 2026 16:13:57 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26458" target="_blank" rel="noopener">Muhammad Saad Shoukat; Gyunho Kim; Muhammad Arham Shoukat; Muhammad Shahwaiz Shoukat; Izunna Okonkwo; Daniyal Khan</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26458">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26459">
             <td class="date">Fri, 09 Jan 2026 17:21:39 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26459" target="_blank" rel="noopener">Guy Robert Elliott</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26459">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26460">
             <td class="date">Thu, 15 Jan 2026 11:19:37 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26460" target="_blank" rel="noopener">Hong (John) Wang and Precision Clinical Consulting, LLC</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26460">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26461">
             <td class="date">Thu, 15 Jan 2026 16:23:58 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26461" target="_blank" rel="noopener">Sumit Rai; Kim deMora; SVN Med LLC; NVS Med Inc.; Onco Filtration, Inc.; Cancer Check Labs, LLC</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26461">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26462">
             <td class="date">Fri, 16 Jan 2026 14:17:04 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26462" target="_blank" rel="noopener">Matthew M. Motil, et al.</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26462">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26463">
             <td class="date">Fri, 23 Jan 2026 12:56:50 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26463" target="_blank" rel="noopener">Joel B. Sofia</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26463">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26464">
             <td class="date">Fri, 23 Jan 2026 16:45:52 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26464" target="_blank" rel="noopener">Lawrence Anthony DiMatteo; Vadim Komissarov; Lottery.com, Inc.; Matthew Clemenson; Ryan Dickinson</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26464">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26465">
             <td class="date">Fri, 23 Jan 2026 16:45:53 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26465" target="_blank" rel="noopener">Gemini Trust Company, LLC</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26465">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26466">
             <td class="date">Mon, 26 Jan 2026 15:56:17 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26466" target="_blank" rel="noopener">Brian J. Suthoff</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26466">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26467">
             <td class="date">Tue, 27 Jan 2026 11:03:38 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26467" target="_blank" rel="noopener">Saeid Jaberian</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26467">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26468">
             <td class="date">Tue, 27 Jan 2026 16:10:44 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26468" target="_blank" rel="noopener">Shannon Illingworth and GP Solutions, Inc.</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26468">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26469">
             <td class="date">Tue, 27 Jan 2026 16:47:17 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26469" target="_blank" rel="noopener">Anil Mathews; Rahul Agarwal; Kenneth M. Harlan; and MobileFuse, LLC</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26469">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26470">
             <td class="date">Tue, 27 Jan 2026 18:12:54 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26470" target="_blank" rel="noopener">Vikram Luthar</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26470">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26471">
             <td class="date">Thu, 29 Jan 2026 17:24:14 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26471" target="_blank" rel="noopener">Dale Swanberg</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26471">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26472">
             <td class="date">Thu, 29 Jan 2026 17:36:29 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26472" target="_blank" rel="noopener">Satish Appalakutty; Lorven Funds; Lorven Advisors LLC; Vistalytics Inc.</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26472">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26473">
             <td class="date">Fri, 30 Jan 2026 15:36:21 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26473" target="_blank" rel="noopener">Kevin A. Van de Grift</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26473">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26474">
             <td class="date">Wed, 04 Feb 2026 16:47:39 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26474" target="_blank" rel="noopener">Ejiro Ode Okuma</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26474">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26475">
             <td class="date">Wed, 04 Feb 2026 17:38:11 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26475" target="_blank" rel="noopener">Brett Rosen; Deborah Braun; David M. Massey; RB Capital Partners, Inc.</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26475">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26476">
             <td class="date">Thu, 05 Feb 2026 15:04:31 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26476" target="_blank" rel="noopener">Marat Likhtenstein</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26476">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26477">
             <td class="date">Thu, 05 Feb 2026 16:13:32 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26477" target="_blank" rel="noopener">Gerald Shvartsman; Michael Shvartsman; Rocket One Capital LLC</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26477">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26478">
             <td class="date">Thu, 05 Feb 2026 16:27:31 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26478" target="_blank" rel="noopener">Ryan Squillante</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26478">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26479">
             <td class="date">Fri, 06 Feb 2026 14:13:23 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26479" target="_blank" rel="noopener">CBA Pharma, Inc., Wayne Michael Putnam, Louis A. Carmichael</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26479">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26480">
             <td class="date">Tue, 10 Feb 2026 12:15:41 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26480" target="_blank" rel="noopener">Barrington Asset Management, Inc.; Gregory David Paris</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26480">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26481">
             <td class="date">Wed, 11 Feb 2026 12:40:56 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26481" target="_blank" rel="noopener">John David Gessin et al.</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26481">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26482">
             <td class="date">Wed, 11 Feb 2026 13:16:51 -0500</td>
             <td class="type"><span class="badge badge-litig">Litigation</span></td>
             <td class="title">
               <a href="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26482" target="_blank" rel="noopener">Nicholas Bowerman</a>
               
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26482">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2025-141-sec-charges-canadian-citizen-fraud-schemes-targeted-retail-investors-discord">
             <td class="date">Wed, 10 Dec 2025 14:27:31 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2025-141-sec-charges-canadian-citizen-fraud-schemes-targeted-retail-investors-discord" target="_blank" rel="noopener">SEC Charges Canadian Citizen With Fraud Schemes That Targeted Retail Investors on Discord</a>
               <div class="description">The Securities and Exchange Commission today charged Canadian citizen Nathan Gauvin and three entities he controls—Blackridge, LLC, Gray Digital Capital Management USA, LLC, and Gray Digital Technolog…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2025-141-sec-charges-canadian-citizen-fraud-schemes-targeted-retail-investors-discord">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2025-142-sec-office-investor-advocate-delivers-congress-report-activities-fiscal-year-2025">
             <td class="date">Wed, 17 Dec 2025 13:05:00 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2025-142-sec-office-investor-advocate-delivers-congress-report-activities-fiscal-year-2025" target="_blank" rel="noopener">SEC Office of the Investor Advocate Delivers to Congress Report on Activities for Fiscal Year 2025</a>
               <div class="description">The Securities and Exchange Commission’s Office of the Investor Advocate today delivered its Report on Activities for the Fiscal Year 2025 to Congress, highlighting the initiatives and work of the off…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2025-142-sec-office-investor-advocate-delivers-congress-report-activities-fiscal-year-2025">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2025-143-joshua-t-white-named-sec-chief-economist">
             <td class="date">Wed, 17 Dec 2025 15:00:00 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2025-143-joshua-t-white-named-sec-chief-economist" target="_blank" rel="noopener">Joshua T. White Named SEC Chief Economist</a>
               <div class="description">The Securities and Exchange Commission today announced that financial economist and academic scholar Dr. Joshua T. White will return to the agency beginning the week of Jan. 5, 2026, to serve as its C…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2025-143-joshua-t-white-named-sec-chief-economist">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2025-144-sec-charges-three-purported-crypto-asset-trading-platforms-four-investment-clubs-scheme-targeted">
             <td class="date">Mon, 22 Dec 2025 15:00:00 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2025-144-sec-charges-three-purported-crypto-asset-trading-platforms-four-investment-clubs-scheme-targeted" target="_blank" rel="noopener">SEC Charges Three Purported Crypto Asset Trading Platforms and Four Investment Clubs with Scheme That Targeted Retail Investors on Social Media</a>
               <div class="description">The Securities and Exchange Commission today filed charges against purported crypto asset trading platforms Morocoin Tech Corp., Berge Blockchain Technology Co. Ltd., and Cirkor Inc. and investment cl…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2025-144-sec-charges-three-purported-crypto-asset-trading-platforms-four-investment-clubs-scheme-targeted">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2025-145-sec-announces-retirement-division-corporation-finance-deputy-director-cicely-lamothe">
             <td class="date">Mon, 29 Dec 2025 11:45:00 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2025-145-sec-announces-retirement-division-corporation-finance-deputy-director-cicely-lamothe" target="_blank" rel="noopener">SEC Announces Retirement of Division of Corporation Finance Deputy Director Cicely LaMothe</a>
               <div class="description">The Securities and Exchange Commission today announced that Cicely LaMothe, Deputy Director of the Division of Corporation Finance, has retired from the agency.“Cicely has gone above and beyond the ca…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2025-145-sec-announces-retirement-division-corporation-finance-deputy-director-cicely-lamothe">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2025-146-deputy-director-enforcement-nekia-hackworth-jones-concludes-her-tenure-sec">
             <td class="date">Mon, 29 Dec 2025 13:36:34 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2025-146-deputy-director-enforcement-nekia-hackworth-jones-concludes-her-tenure-sec" target="_blank" rel="noopener">Deputy Director of Enforcement Nekia Hackworth Jones Concludes Her Tenure at the SEC</a>
               <div class="description">The Securities and Exchange Commission today announced that Nekia Hackworth Jones, Deputy Director of the Division of Enforcement (Southeast), concluded her tenure with the agency on December 26, 2025…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2025-146-deputy-director-enforcement-nekia-hackworth-jones-concludes-her-tenure-sec">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-1-sec-proposes-amendments-small-entity-definitions-investment-companies-investment-advisers-purposes">
             <td class="date">Wed, 07 Jan 2026 16:57:35 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-1-sec-proposes-amendments-small-entity-definitions-investment-companies-investment-advisers-purposes" target="_blank" rel="noopener">SEC Proposes Amendments to the Small Entity Definitions for Investment Companies and Investment Advisers for Purposes of the Regulatory Flexibility Act</a>
               <div class="description">The Securities and Exchange Commission today proposed amendments to the rules that define which registered investment companies, investment advisers, and business development companies qualify as smal…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-1-sec-proposes-amendments-small-entity-definitions-investment-companies-investment-advisers-purposes">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-2-sec-publishes-staff-report-capital-raising-dynamics">
             <td class="date">Thu, 08 Jan 2026 17:45:00 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-2-sec-publishes-staff-report-capital-raising-dynamics" target="_blank" rel="noopener">SEC Publishes Staff Report on Capital-Raising Dynamics</a>
               <div class="description">The Securities and Exchange Commission’s Office of the Advocate for Small Business Capital Formation today published and delivered to Congress its&nbsp;2025 staff report that serves as a comprehensive…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-2-sec-publishes-staff-report-capital-raising-dynamics">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-3-sec-host-hybrid-event-regulation-s-p-small-firms">
             <td class="date">Fri, 09 Jan 2026 11:33:41 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-3-sec-host-hybrid-event-regulation-s-p-small-firms" target="_blank" rel="noopener">SEC to Host Hybrid Event on Regulation S-P for Small Firms</a>
               <div class="description">The Securities and Exchange Commission today announced it will hold its third and final outreach event to help firms comply with amendments to Regulation S-P. The event, which is focused on small firm…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-3-sec-host-hybrid-event-regulation-s-p-small-firms">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-4-paul-tzur-david-morrell-named-deputy-directors-division-enforcement">
             <td class="date">Mon, 12 Jan 2026 13:56:42 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-4-paul-tzur-david-morrell-named-deputy-directors-division-enforcement" target="_blank" rel="noopener">Paul Tzur and David Morrell Named Deputy Directors of the Division of Enforcement</a>
               <div class="description">The Securities and Exchange Commission today announced that Paul H. Tzur and David M. Morrell have been named as Deputy Directors of the Division of Enforcement. Mr. Tzur joined the Commission on Janu…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-4-paul-tzur-david-morrell-named-deputy-directors-division-enforcement">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-5-j-russell-mcgranahan-named-sec-general-counsel">
             <td class="date">Thu, 15 Jan 2026 10:00:00 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-5-j-russell-mcgranahan-named-sec-general-counsel" target="_blank" rel="noopener">J. Russell McGranahan Named SEC General Counsel</a>
               <div class="description">The Securities and Exchange Commission today announced that J. Russell “Rusty” McGranahan has been named SEC General Counsel. As the SEC’s chief legal officer, Mr. McGranahan will oversee the provisio…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-5-j-russell-mcgranahan-named-sec-general-counsel">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-6-keith-e-cassidy-named-director-division-examinations">
             <td class="date">Tue, 20 Jan 2026 07:15:48 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-6-keith-e-cassidy-named-director-division-examinations" target="_blank" rel="noopener">Keith E. Cassidy Named Director of the Division of Examinations</a>
               <div class="description">The Securities and Exchange Commission today announced that Keith E. Cassidy has been appointed Director of the Division of Examinations. Mr. Cassidy has served as Acting Director since May 2024 and p…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-6-keith-e-cassidy-named-director-division-examinations">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-7-christina-m-thomas-rejoin-division-corporation-finance-deputy-director">
             <td class="date">Tue, 20 Jan 2026 14:42:00 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-7-christina-m-thomas-rejoin-division-corporation-finance-deputy-director" target="_blank" rel="noopener">Christina M. Thomas to Rejoin the Division of Corporation Finance as Deputy Director</a>
               <div class="description">The Securities and Exchange Commission today announced that Christina M. Thomas will rejoin the Division of Corporation Finance in February as deputy director and chief advisor on disclosure, policy, …</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-7-christina-m-thomas-rejoin-division-corporation-finance-deputy-director">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-8-division-corporation-finance-names-senior-staff">
             <td class="date">Tue, 20 Jan 2026 15:07:00 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-8-division-corporation-finance-names-senior-staff" target="_blank" rel="noopener">Division of Corporation Finance Names Senior Staff</a>
               <div class="description">The Securities and Exchange Commission today announced the senior team from the Division of Corporation Finance responsible for advising division Director James Moloney on all matters the division has…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-8-division-corporation-finance-names-senior-staff">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-9-sec-seeks-candidates-small-business-capital-formation-advisory-committee">
             <td class="date">Wed, 21 Jan 2026 08:30:00 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-9-sec-seeks-candidates-small-business-capital-formation-advisory-committee" target="_blank" rel="noopener">SEC Seeks Candidates for Small Business Capital Formation Advisory Committee</a>
               <div class="description">The Securities and Exchange Commission is seeking candidates to fill a limited number of vacancies on the agency’s Small Business Capital Formation Advisory Committee, which provides advice and recomm…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-9-sec-seeks-candidates-small-business-capital-formation-advisory-committee">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-10-sec-seeks-candidates-membership-investor-advisory-committee">
             <td class="date">Thu, 22 Jan 2026 08:58:00 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-10-sec-seeks-candidates-membership-investor-advisory-committee" target="_blank" rel="noopener">SEC Seeks Candidates for Membership on the Investor Advisory Committee</a>
               <div class="description">The Securities and Exchange Commission is seeking candidates for appointment as members of the SEC’s Investor Advisory Committee, established pursuant to Section 39 of the Securities Exchange Act of 1…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-10-sec-seeks-candidates-membership-investor-advisory-committee">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-11-sec-approves-2026-pcaob-budget-accounting-support-fee">
             <td class="date">Thu, 22 Jan 2026 11:52:00 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-11-sec-approves-2026-pcaob-budget-accounting-support-fee" target="_blank" rel="noopener">SEC Approves 2026 PCAOB Budget and Accounting Support Fee</a>
               <div class="description">The Securities and Exchange Commission today approved the 2026 budget for the Public Company Accounting Oversight Board (PCAOB) and the related accounting support fee.The 2026 PCAOB budget totals $362…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-11-sec-approves-2026-pcaob-budget-accounting-support-fee">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-12-sec-small-business-advisory-committee-continue-discussion-regulatory-framework-finders-begin">
             <td class="date">Thu, 22 Jan 2026 14:25:00 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-12-sec-small-business-advisory-committee-continue-discussion-regulatory-framework-finders-begin" target="_blank" rel="noopener">SEC Small Business Advisory Committee to Continue Discussion on Regulatory Framework for Finders and Begin Exploring the Private Secondary Market</a>
               <div class="description">The Securities and Exchange Commission’s Small Business Capital Formation Advisory Committee announced that it will hold a public meeting at the SEC Headquarters in Washington, D.C., on Tuesday, Feb. …</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-12-sec-small-business-advisory-committee-continue-discussion-regulatory-framework-finders-begin">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-13">
             <td class="date">Thu, 22 Jan 2026 15:50:56 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-13" target="_blank" rel="noopener">SEC and CFTC to Hold Joint Event on Harmonization, U.S. Financial Leadership in the Crypto Era</a>
               <div class="description">Securities and Exchange Commission Chairman Paul S. Atkins and Commodity Futures Trading Commission Chairman Michael S. Selig will hold a joint event on Tuesday, Jan. 27, from 10 a.m. to 11 a.m. at CF…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-13">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-14-sec-cftc-reschedule-joint-event-harmonization-us-financial-leadership-crypto-era">
             <td class="date">Mon, 26 Jan 2026 10:12:31 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-14-sec-cftc-reschedule-joint-event-harmonization-us-financial-leadership-crypto-era" target="_blank" rel="noopener">SEC and CFTC Reschedule Joint Event on Harmonization, U.S. Financial Leadership in the Crypto Era</a>
               <div class="description">Securities and Exchange Commission Chairman Paul S. Atkins and Commodity Futures Trading Commission Chairman Michael S. Selig will hold a joint event, previously scheduled for Jan. 27, now rescheduled…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-14-sec-cftc-reschedule-joint-event-harmonization-us-financial-leadership-crypto-era">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-15-sec-charges-adm-three-former-executives-accounting-disclosure-fraud">
             <td class="date">Tue, 27 Jan 2026 16:38:34 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-15-sec-charges-adm-three-former-executives-accounting-disclosure-fraud" target="_blank" rel="noopener">SEC Charges ADM and Three Former Executives with Accounting and Disclosure Fraud</a>
               <div class="description">The Securities and Exchange Commission today filed settled charges against Archer-Daniels-Midland Company (ADM) and its former executives, Vince Macciocchi and Ray Young, and a litigated action agains…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-15-sec-charges-adm-three-former-executives-accounting-disclosure-fraud">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-16-sec-appoints-new-chairman-board-members-pcaob">
             <td class="date">Fri, 30 Jan 2026 15:59:00 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-16-sec-appoints-new-chairman-board-members-pcaob" target="_blank" rel="noopener">SEC Appoints New Chairman and Board Members to PCAOB</a>
               <div class="description">The Securities and Exchange Commission today announced the appointment of Demetrios (Jim) Logothetis, as Chairman, and Mark Calabria, Kyle Hauptman, and Steven Laughton, as Board members, of the Publi…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-16-sec-appoints-new-chairman-board-members-pcaob">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-17-sec-publishes-data-exchange-traded-funds-fund-mergers-updated-statistics-municipal-advisors-transfer">
             <td class="date">Thu, 05 Feb 2026 13:45:00 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-17-sec-publishes-data-exchange-traded-funds-fund-mergers-updated-statistics-municipal-advisors-transfer" target="_blank" rel="noopener">SEC Publishes Data on Exchange Traded Funds and Fund Mergers; Updated Statistics on Municipal Advisors, Transfer Agents, and Security-Based Swap Dealers</a>
               <div class="description">The Securities and Exchange Commission’s Division of Economic and Risk Analysis (DERA) has published two new reports on exchange traded funds and fund mergers, and updated statistics and data visualiz…</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-17-sec-publishes-data-exchange-traded-funds-fund-mergers-updated-statistics-municipal-advisors-transfer">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-18-sec-announces-45th-annual-small-business-forum-improve-capital-raising-policy">
             <td class="date">Fri, 13 Feb 2026 10:45:00 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-18-sec-announces-45th-annual-small-business-forum-improve-capital-raising-policy" target="_blank" rel="noopener">SEC Announces 45th Annual Small Business Forum to Improve Capital-Raising Policy</a>
               <div class="description">The Securities and Exchange Commission will host the agency’s 45th Annual Government Business Forum on Small Business Capital Formation at SEC headquarters in Washington, D.C., on March 9 from 1 p.m. …</div>
             </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-18-sec-announces-45th-annual-small-business-forum-improve-capital-raising-policy">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
+            </td>
             <td class="date">2026-02-18</td>
           </tr>
-          <tr>
+          <tr data-url="https://www.sec.gov/newsroom/press-releases/2026-19-sec-proposes-amendments-reduce-burdens-reporting-fund-portfolio-holdings">
             <td class="date">Wed, 18 Feb 2026 14:30:00 -0500</td>
             <td class="type"><span class="badge badge-press">Press Release</span></td>
             <td class="title">
               <a href="https://www.sec.gov/newsroom/press-releases/2026-19-sec-proposes-amendments-reduce-burdens-reporting-fund-portfolio-holdings" target="_blank" rel="noopener">SEC Proposes Amendments to Reduce Burdens in Reporting of Fund Portfolio Holdings</a>
               
+            </td>
+            <td class="ai-score-cell"><span class="score-none">&mdash;</span></td>
+            <td class="user-score-cell">
+              <div class="stars" data-url="https://www.sec.gov/newsroom/press-releases/2026-19-sec-proposes-amendments-reduce-burdens-reporting-fund-portfolio-holdings">
+                <span class="star" data-v="1">&#9733;</span>
+                <span class="star" data-v="2">&#9733;</span>
+                <span class="star" data-v="3">&#9733;</span>
+                <span class="star" data-v="4">&#9733;</span>
+                <span class="star" data-v="5">&#9733;</span>
+              </div>
             </td>
             <td class="date">2026-02-18</td>
           </tr>
@@ -688,30 +1317,77 @@
   </div>
 
   <script>
+    // ---- User star ratings (persisted in localStorage) ----
+
+    function getScore(url) {
+      return parseInt(localStorage.getItem('score:' + url) || '0');
+    }
+
+    function setScore(url, val) {
+      localStorage.setItem('score:' + url, val);
+    }
+
+    function renderStars(container, score) {
+      container.querySelectorAll('.star').forEach((s, i) => {
+        s.classList.toggle('on', i < score);
+      });
+    }
+
+    function initStars() {
+      document.querySelectorAll('.stars').forEach(container => {
+        const url   = container.dataset.url;
+        const score = getScore(url);
+        renderStars(container, score);
+
+        container.querySelectorAll('.star').forEach(star => {
+          // Hover preview
+          star.addEventListener('mouseenter', () => {
+            renderStars(container, parseInt(star.dataset.v));
+          });
+          container.addEventListener('mouseleave', () => {
+            renderStars(container, getScore(url));
+          });
+          // Click to save
+          star.addEventListener('click', () => {
+            const val = parseInt(star.dataset.v);
+            // Clicking the same score again clears it
+            const current = getScore(url);
+            const next    = current === val ? 0 : val;
+            setScore(url, next);
+            renderStars(container, next);
+          });
+        });
+      });
+    }
+
+    // ---- CSV export (includes both scores) ----
+
     function downloadCSV() {
-      // Walk the table rows and pull out cell text, then trigger a download.
-      // This runs entirely in the browser — no server needed.
-      const rows  = document.querySelectorAll("tbody tr");
-      const lines = [["Type","Title","URL","Published","Saved"]];
+      const rows  = document.querySelectorAll('tbody tr[data-url]');
+      const lines = [["Type","Title","URL","Published","AI Score","My Score","Saved"]];
 
       rows.forEach(row => {
-        const cells = row.querySelectorAll("td");
-        const type  = cells[1].innerText.trim();
-        const link  = cells[2].querySelector("a");
-        const title = link ? link.innerText.trim() : "";
-        const url   = link ? link.href : "";
-        const pub   = cells[0].innerText.trim();
-        const saved = cells[3].innerText.trim();
-        lines.push([type, title, url, pub, saved]);
+        const cells    = row.querySelectorAll('td');
+        const url      = row.dataset.url;
+        const type     = cells[1].innerText.trim();
+        const link     = cells[2].querySelector('a');
+        const title    = link ? link.innerText.trim() : '';
+        const pub      = cells[0].innerText.trim();
+        const aiScore  = cells[3].querySelector('.ai-score')?.innerText.replace('/5','').trim() || '';
+        const myScore  = getScore(url) || '';
+        const saved    = cells[5].innerText.trim();
+        lines.push([type, title, url, pub, aiScore, myScore, saved]);
       });
 
-      const csv  = lines.map(r => r.map(v => `"${v.replace(/"/g,'""')}"`).join(",")).join("\n");
-      const blob = new Blob([csv], { type: "text/csv" });
-      const a    = document.createElement("a");
+      const csv  = lines.map(r => r.map(v => `"${String(v).replace(/"/g,'""')}"`).join(',')).join('\n');
+      const blob = new Blob([csv], { type: 'text/csv' });
+      const a    = document.createElement('a');
       a.href     = URL.createObjectURL(blob);
-      a.download = "sec_items.csv";
+      a.download = 'sec_items.csv';
       a.click();
     }
+
+    initStars();
   </script>
 </body>
 </html>

@@ -6,15 +6,9 @@
       "url": "https://www.sec.gov/newsroom/meetings-events/private-markets-roundtable",
       "published": "2026-03-04 01:30 PM ET",
       "summary": "As retail access to private markets accelerates, the SEC is hosting a roundtable to discuss governance, valuation, and other considerations with the aim of promoting responsible retailization.",
-      "created_at": "2026-02-23T17:02:57.543893+00:00"
-    },
-    {
-      "source": "litigation_release",
-      "title": "C-Hear, Inc.; Adena Harmon",
-      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26486",
-      "published": "Fri, 20 Feb 2026 16:45:25 -0500",
-      "summary": "C-Hear, Inc.; Adena Harmon",
-      "created_at": "2026-02-21T02:22:29.072540+00:00"
+      "created_at": "2026-02-24T00:20:39.915970+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "A roundtable discussion is routine administrative activity, though the topic of retail private markets access has regulatory relevance that could merit monitoring for any resulting policy proposals."
     },
     {
       "source": "open_meeting",
@@ -22,7 +16,9 @@
       "url": "https://www.sec.gov/newsroom/meetings-events/director-executive-summit-2026",
       "published": "2026-02-27 04:30 PM ET",
       "summary": "SEC Chairman Paul Atkins will speak at the Director-Executive Summit co-hosted by the University of Texas School of Law and the McCombs School of Business.",
-      "created_at": "2026-02-20T16:44:54.579352+00:00"
+      "created_at": "2026-02-24T00:20:39.915932+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative notice of a speaking engagement with no policy announcements, enforcement actions, or regulatory developments indicated."
     },
     {
       "source": "open_meeting",
@@ -30,7 +26,29 @@
       "url": "https://www.sec.gov/newsroom/meetings-events/us-chamber-commerce-center-capital-markets-competitiveness-2-23-26",
       "published": "2026-02-23 05:00 PM ET",
       "summary": "SEC Chairman Paul Atkins will give remarks and participate in a fireside chat at a U.S. Chamber of Commerce Center for Capital Markets Competitiveness event entitled Shaping the Future of Capital Formation: The INVEST Act and Beyond.",
-      "created_at": "2026-02-20T16:44:54.579118+00:00"
+      "created_at": "2026-02-24T00:20:39.915841+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine announcement of a scheduled speaking engagement by SEC leadership at an industry conference with no substantive policy announcement or regulatory action."
+    },
+    {
+      "source": "litigation_release",
+      "title": "C-Hear, Inc.; Adena Harmon",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26486",
+      "published": "Fri, 20 Feb 2026 16:45:25 -0500",
+      "summary": "C-Hear, Inc.; Adena Harmon",
+      "created_at": "2026-02-24T00:20:39.575248+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a routine administrative notice regarding a company and individual with minimal context provided, lacking details about enforcement action, settlements, or policy significance."
+    },
+    {
+      "source": "litigation_release",
+      "title": "Christopher B. Ferguson and Brian P. McFadden",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26487",
+      "published": "Mon, 23 Feb 2026 16:02:13 -0500",
+      "summary": "Christopher B. Ferguson and Brian P. McFadden",
+      "created_at": "2026-02-24T00:20:39.575233+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a personnel announcement or routine administrative notice with minimal content provided and no substantive regulatory or enforcement information."
     },
     {
       "source": "litigation_release",
@@ -543,5 +561,5 @@
       "created_at": "2026-02-18 23:07:07"
     }
   ],
-  "last_updated": "2026-02-23T20:49:49.435982+00:00"
+  "last_updated": "2026-02-24T00:20:46.465772+00:00"
 }
