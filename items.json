@@ -56,7 +56,9 @@
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26483",
       "published": "Thu, 19 Feb 2026 13:41:23 -0500",
       "summary": "Saumil Thakkar, Poorvesh Thakkar, et al.",
-      "created_at": "2026-02-20T02:49:42.061455+00:00"
+      "created_at": "2026-02-20T02:49:42.061455+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a routine SEC administrative item listing defendant names without substantive details about enforcement action, violations, or outcomes."
     },
     {
       "source": "litigation_release",
@@ -64,7 +66,9 @@
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26484",
       "published": "Thu, 19 Feb 2026 14:49:23 -0500",
       "summary": "Bluesky Eagle Capital Management Ltd.",
-      "created_at": "2026-02-20T02:49:42.061452+00:00"
+      "created_at": "2026-02-20T02:49:42.061452+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "Insufficient information provided; title and summary appear identical and contain only a company name with no details about SEC action, enforcement, or regulatory activity."
     },
     {
       "source": "litigation_release",
@@ -72,7 +76,9 @@
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26485",
       "published": "Thu, 19 Feb 2026 15:11:50 -0500",
       "summary": "Cutter Financial Group, LLC and Jeffrey Cutter",
-      "created_at": "2026-02-20T02:49:42.061439+00:00"
+      "created_at": "2026-02-20T02:49:42.061439+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "Routine enforcement action against an individual and firm without additional context indicating unusual size, systemic impact, or public significance."
     },
     {
       "source": "open_meeting",
@@ -81,7 +87,9 @@
       "published": "2026-03-09 01:00 PM ET",
       "summary": "The SEC will host its annual Small Business Forum to discuss capital formation for small businesses.",
       "ai_reason": "",
-      "created_at": "2026-02-19 03:52:05"
+      "created_at": "2026-02-19 03:52:05",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement for an annual conference with no policy changes, enforcement actions, or market-moving implications."
     },
     {
       "source": "open_meeting",
@@ -90,7 +98,9 @@
       "published": "2026-02-24 10:00 AM ET",
       "summary": "The SEC's Small Business Capital Formation Advisory Committee is holding a public meeting regarding matters relating to rules and regulations affecting small and emerging businesses and their investors under the federal securities laws.",
       "ai_reason": "",
-      "created_at": "2026-02-19 03:52:05"
+      "created_at": "2026-02-19 03:52:05",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative notice announcing a standard advisory committee meeting with no indication of specific policy decisions or significant outcomes."
     },
     {
       "source": "open_meeting",
@@ -99,7 +109,9 @@
       "published": "2026-02-19 02:00 PM ET",
       "summary": "",
       "ai_reason": "",
-      "created_at": "2026-02-19 03:52:05"
+      "created_at": "2026-02-19 03:52:05",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative notice indicating a closed SEC meeting with no disclosed substantive content or policy implications."
     },
     {
       "source": "open_meeting",
@@ -108,7 +120,9 @@
       "published": "2026-02-18 04:00 PM ET",
       "summary": "Chairman Paul Atkins and Commissioner Hester Peirce will participate in ETHDenver.",
       "ai_reason": "",
-      "created_at": "2026-02-19 03:52:05"
+      "created_at": "2026-02-19 03:52:05",
+      "ai_score": 1,
+      "ai_score_reason": "Routine administrative announcement of SEC leadership attendance at a cryptocurrency conference with no policy announcements or substantive regulatory developments."
     },
     {
       "source": "litigation_release",
@@ -117,7 +131,9 @@
       "published": "Tue, 06 Jan 2026 16:13:57 -0500",
       "summary": "Muhammad Saad Shoukat; Gyunho Kim; Muhammad Arham Shoukat; Muhammad Shahwaiz Shoukat; Izunna Okonkwo; Daniyal Khan",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a routine administrative listing of names with no substantive summary indicating enforcement action, rule changes, or policy decisions."
     },
     {
       "source": "litigation_release",
@@ -126,7 +142,9 @@
       "published": "Fri, 09 Jan 2026 17:21:39 -0500",
       "summary": "Guy Robert Elliott",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a personnel announcement or routine administrative matter with minimal substantive content regarding SEC activities or financial regulation."
     },
     {
       "source": "litigation_release",
@@ -135,7 +153,9 @@
       "published": "Thu, 15 Jan 2026 11:19:37 -0500",
       "summary": "Hong (John) Wang and Precision Clinical Consulting, LLC",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 2,
+      "ai_score_reason": "Standard enforcement action against an individual and business entity, likely involving typical violations but lacking indicators of systemic significance or major market impact."
     },
     {
       "source": "litigation_release",
@@ -144,7 +164,9 @@
       "published": "Thu, 15 Jan 2026 16:23:58 -0500",
       "summary": "Sumit Rai; Kim deMora; SVN Med LLC; NVS Med Inc.; Onco Filtration, Inc.; Cancer Check Labs, LLC",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 2,
+      "ai_score_reason": "Routine enforcement action against individuals and entities with minimal detail provided, suggesting a standard administrative settlement or order without apparent systemic significance or major market impact."
     },
     {
       "source": "litigation_release",
@@ -153,7 +175,9 @@
       "published": "Fri, 16 Jan 2026 14:17:04 -0500",
       "summary": "Matthew M. Motil, et al.",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a routine administrative notice regarding personnel or case matters with minimal identifying detail provided."
     },
     {
       "source": "litigation_release",
@@ -162,7 +186,9 @@
       "published": "Fri, 23 Jan 2026 12:56:50 -0500",
       "summary": "Joel B. Sofia",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a routine personnel or administrative announcement with minimal substantive content regarding an individual named Joel B. Sofia."
     },
     {
       "source": "litigation_release",
@@ -171,7 +197,9 @@
       "published": "Fri, 23 Jan 2026 16:45:52 -0500",
       "summary": "Lawrence Anthony DiMatteo; Vadim Komissarov; Lottery.com, Inc.; Matthew Clemenson; Ryan Dickinson",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 2,
+      "ai_score_reason": "This appears to be a routine SEC enforcement action against individuals and a company, likely involving standard violations without indicators of systemic risk or broad market impact."
     },
     {
       "source": "litigation_release",
@@ -180,7 +208,9 @@
       "published": "Fri, 23 Jan 2026 16:45:53 -0500",
       "summary": "Gemini Trust Company, LLC",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 2,
+      "ai_score_reason": "This appears to be a routine administrative notice or filing related to Gemini Trust Company without indication of enforcement action, policy change, or material market impact."
     },
     {
       "source": "litigation_release",
@@ -189,7 +219,9 @@
       "published": "Mon, 26 Jan 2026 15:56:17 -0500",
       "summary": "Brian J. Suthoff",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative personnel announcement with no substantive policy, enforcement, or regulatory content."
     },
     {
       "source": "litigation_release",
@@ -198,7 +230,9 @@
       "published": "Tue, 27 Jan 2026 11:03:38 -0500",
       "summary": "Saeid Jaberian",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a bare name with no substantive information about any SEC action, ruling, enforcement, or policy matter."
     },
     {
       "source": "litigation_release",
@@ -207,7 +241,9 @@
       "published": "Tue, 27 Jan 2026 16:10:44 -0500",
       "summary": "Shannon Illingworth and GP Solutions, Inc.",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "Without details on the nature of the action, this appears to be a routine administrative or personnel matter involving an individual and company, lacking indicators of significant enforcement or policy implications."
     },
     {
       "source": "litigation_release",
@@ -216,7 +252,9 @@
       "published": "Tue, 27 Jan 2026 16:47:17 -0500",
       "summary": "Anil Mathews; Rahul Agarwal; Kenneth M. Harlan; and MobileFuse, LLC",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 2,
+      "ai_score_reason": "Routine enforcement action against individuals and a company with no indication of systemic impact, major fraud, or broad market consequences based on the limited information provided."
     },
     {
       "source": "litigation_release",
@@ -225,7 +263,9 @@
       "published": "Tue, 27 Jan 2026 18:12:54 -0500",
       "summary": "Vikram Luthar",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a bare name reference with no substantive information about any SEC action, enforcement matter, or regulatory development."
     },
     {
       "source": "litigation_release",
@@ -234,7 +274,9 @@
       "published": "Thu, 29 Jan 2026 17:24:14 -0500",
       "summary": "Dale Swanberg",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a personnel announcement or routine administrative item with minimal information provided."
     },
     {
       "source": "litigation_release",
@@ -243,7 +285,9 @@
       "published": "Thu, 29 Jan 2026 17:36:29 -0500",
       "summary": "Satish Appalakutty; Lorven Funds; Lorven Advisors LLC; Vistalytics Inc.",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 2,
+      "ai_score_reason": "This appears to be a routine enforcement action against individuals and entities, likely involving standard SEC violations, without clear indication of systemic market impact or exceptional fraud."
     },
     {
       "source": "litigation_release",
@@ -252,7 +296,9 @@
       "published": "Fri, 30 Jan 2026 15:36:21 -0500",
       "summary": "Kevin A. Van de Grift",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a bare personnel or administrative notice with no substantive details about any enforcement action, rule change, or policy matter."
     },
     {
       "source": "litigation_release",
@@ -261,7 +307,9 @@
       "published": "Wed, 04 Feb 2026 16:47:39 -0500",
       "summary": "Ejiro Ode Okuma",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a routine personnel or administrative item with no substantive detail provided about any enforcement action, rule change, or policy matter."
     },
     {
       "source": "litigation_release",
@@ -270,7 +318,9 @@
       "published": "Wed, 04 Feb 2026 17:38:11 -0500",
       "summary": "Brett Rosen; Deborah Braun; David M. Massey; RB Capital Partners, Inc.",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 2,
+      "ai_score_reason": "Routine enforcement action against individuals and a firm, likely a standard settlement or administrative proceeding without indication of unusual systemic impact or fraud."
     },
     {
       "source": "litigation_release",
@@ -279,7 +329,9 @@
       "published": "Thu, 05 Feb 2026 15:04:31 -0500",
       "summary": "Marat Likhtenstein",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a bare name entry with no substantive information about any SEC action, enforcement, rule, or policy matter."
     },
     {
       "source": "litigation_release",
@@ -288,7 +340,9 @@
       "published": "Thu, 05 Feb 2026 16:13:32 -0500",
       "summary": "Gerald Shvartsman; Michael Shvartsman; Rocket One Capital LLC",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 2,
+      "ai_score_reason": "This appears to be a routine enforcement action against individuals and an entity, lacking details about settlement amounts, violations severity, or broader market implications that would elevate newsworthiness."
     },
     {
       "source": "litigation_release",
@@ -297,7 +351,9 @@
       "published": "Thu, 05 Feb 2026 16:27:31 -0500",
       "summary": "Ryan Squillante",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a personnel announcement or administrative item with minimal substantive content, lacking details about any regulatory action, enforcement matter, or policy development."
     },
     {
       "source": "litigation_release",
@@ -306,7 +362,9 @@
       "published": "Fri, 06 Feb 2026 14:13:23 -0500",
       "summary": "CBA Pharma, Inc., Wayne Michael Putnam, Louis A. Carmichael",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 2,
+      "ai_score_reason": "Routine enforcement action against a company and individuals with minimal identifying details provided, suggesting a standard SEC case without apparent systemic impact or broad market significance."
     },
     {
       "source": "litigation_release",
@@ -315,7 +373,9 @@
       "published": "Tue, 10 Feb 2026 12:15:41 -0500",
       "summary": "Barrington Asset Management, Inc.; Gregory David Paris",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 2,
+      "ai_score_reason": "Routine enforcement action against an individual and firm with no indication of systemic significance or unusually large settlement amounts based on the minimal information provided."
     },
     {
       "source": "litigation_release",
@@ -324,7 +384,9 @@
       "published": "Wed, 11 Feb 2026 12:40:56 -0500",
       "summary": "John David Gessin et al.",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a routine SEC enforcement action against an individual with minimal identifying information provided and no details about the alleged violation or settlement terms."
     },
     {
       "source": "litigation_release",
@@ -333,7 +395,9 @@
       "published": "Wed, 11 Feb 2026 13:16:51 -0500",
       "summary": "Nicholas Bowerman",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a personnel announcement or routine administrative item with minimal substantive information about regulatory action or policy significance."
     },
     {
       "source": "press_release",
@@ -342,7 +406,9 @@
       "published": "Wed, 10 Dec 2025 14:27:31 -0500",
       "summary": "The Securities and Exchange Commission today charged Canadian citizen Nathan Gauvin and three entities he controls\u2014Blackridge, LLC, Gray Digital Capital Management USA, LLC, and Gray Digital Technologies, LLC\u2014with orchestrating two fraudulent securities\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 3,
+      "ai_score_reason": "Significant enforcement action targeting coordinated fraud schemes that exploited a novel distribution channel (Discord) to defraud retail investors, warranting coverage as a notable case with implications for digital asset regulation and investor protection."
     },
     {
       "source": "press_release",
@@ -351,7 +417,9 @@
       "published": "Wed, 17 Dec 2025 13:05:00 -0500",
       "summary": "The Securities and Exchange Commission\u2019s Office of the Investor Advocate today delivered its Report on Activities for the Fiscal Year 2025 to Congress, highlighting the initiatives and work of the office during the fiscal year.The report includes:An\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative report delivery to Congress documenting standard office activities and initiatives, lacking any enforcement actions, policy changes, or substantive developments that would affect markets or investors."
     },
     {
       "source": "press_release",
@@ -360,7 +428,9 @@
       "published": "Wed, 17 Dec 2025 15:00:00 -0500",
       "summary": "The Securities and Exchange Commission today announced that financial economist and academic scholar Dr. Joshua T. White will return to the agency beginning the week of Jan. 5, 2026, to serve as its Chief Economist and Director of the Division of\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine personnel announcement regarding the appointment of a Chief Economist, lacking policy significance or market implications."
     },
     {
       "source": "press_release",
@@ -369,7 +439,9 @@
       "published": "Mon, 22 Dec 2025 15:00:00 -0500",
       "summary": "The Securities and Exchange Commission today filed charges against purported crypto asset trading platforms Morocoin Tech Corp., Berge Blockchain Technology Co. Ltd., and Cirkor Inc. and investment clubs AI Wealth Inc., Lane Wealth Inc., AI Investment\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 3,
+      "ai_score_reason": "Significant enforcement action targeting a coordinated fraud scheme across multiple entities using social media to defraud retail investors, representing notable regulatory activity with meaningful consumer protection impact but lacking indicators of systemic market risk."
     },
     {
       "source": "press_release",
@@ -378,7 +450,9 @@
       "published": "Mon, 29 Dec 2025 11:45:00 -0500",
       "summary": "The Securities and Exchange Commission today announced that Cicely LaMothe, Deputy Director of the Division of Corporation Finance, has retired from the agency.\u201cCicely has gone above and beyond the call of duty over the past twenty-four years to serve\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine personnel announcement regarding the retirement of a career SEC official with no indication of policy changes, enforcement actions, or market impact."
     },
     {
       "source": "press_release",
@@ -387,7 +461,9 @@
       "published": "Mon, 29 Dec 2025 13:36:34 -0500",
       "summary": "The Securities and Exchange Commission today announced that Nekia Hackworth Jones, Deputy Director of the Division of Enforcement (Southeast), concluded her tenure with the agency on December 26, 2025.\u201cI am thankful to Nekia for answering the call to\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine personnel announcement regarding the departure of a regional enforcement official with no indication of unusual circumstances or broader implications."
     },
     {
       "source": "press_release",
@@ -396,7 +472,9 @@
       "published": "Wed, 07 Jan 2026 16:57:35 -0500",
       "summary": "The Securities and Exchange Commission today proposed amendments to the rules that define which registered investment companies, investment advisers, and business development companies qualify as small entities for purposes of the Regulatory Flexibility\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "Routine administrative proposal adjusting technical definitions for small entity compliance purposes with limited practical market impact."
     },
     {
       "source": "press_release",
@@ -405,7 +483,9 @@
       "published": "Thu, 08 Jan 2026 17:45:00 -0500",
       "summary": "The Securities and Exchange Commission\u2019s Office of the Advocate for Small Business Capital Formation today published and delivered to Congress its&nbsp;2025 staff report that serves as a comprehensive and data-rich resource on capital-raising dynamics\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 2,
+      "ai_score_reason": "A routine staff report on capital-raising dynamics is standard SEC activity that provides informational value but lacks the enforcement action, policy change, or systemic implications needed for higher newsworthiness."
     },
     {
       "source": "press_release",
@@ -414,7 +494,9 @@
       "published": "Fri, 09 Jan 2026 11:33:41 -0500",
       "summary": "The Securities and Exchange Commission today announced it will hold its third and final outreach event to help firms comply with amendments to Regulation S-P. The event, which is focused on small firms, is open to in-person or virtual attendance, and is\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement about an educational outreach event with no enforcement, policy changes, or market-moving implications."
     },
     {
       "source": "press_release",
@@ -423,7 +505,9 @@
       "published": "Mon, 12 Jan 2026 13:56:42 -0500",
       "summary": "The Securities and Exchange Commission today announced that Paul H. Tzur and David M. Morrell have been named as Deputy Directors of the Division of Enforcement. Mr. Tzur joined the Commission on January 6, 2026, as the Deputy Director overseeing the\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine personnel announcement regarding internal SEC organizational appointments with no policy implications or enforcement substance."
     },
     {
       "source": "press_release",
@@ -432,7 +516,9 @@
       "published": "Thu, 15 Jan 2026 10:00:00 -0500",
       "summary": "The Securities and Exchange Commission today announced that J. Russell \u201cRusty\u201d McGranahan has been named SEC General Counsel. As the SEC\u2019s chief legal officer, Mr. McGranahan will oversee the provision of legal expertise and advice to the Office of the\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine personnel announcement for an internal SEC administrative position."
     },
     {
       "source": "press_release",
@@ -441,7 +527,9 @@
       "published": "Tue, 20 Jan 2026 07:15:48 -0500",
       "summary": "The Securities and Exchange Commission today announced that Keith E. Cassidy has been appointed Director of the Division of Examinations. Mr. Cassidy has served as Acting Director since May 2024 and previously was the division\u2019s Deputy Director, Acting\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine personnel announcement confirming an internal appointment to a divisional leadership position."
     },
     {
       "source": "press_release",
@@ -450,7 +538,9 @@
       "published": "Tue, 20 Jan 2026 14:42:00 -0500",
       "summary": "The Securities and Exchange Commission today announced that Christina M. Thomas will rejoin the Division of Corporation Finance in February as deputy director and chief advisor on disclosure, policy, and rulemaking.\u201cChristina brings her deep technical\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine personnel announcement regarding an internal SEC staff appointment with no policy, enforcement, or market implications."
     },
     {
       "source": "press_release",
@@ -459,7 +549,9 @@
       "published": "Tue, 20 Jan 2026 15:07:00 -0500",
       "summary": "The Securities and Exchange Commission today announced the senior team from the Division of Corporation Finance responsible for advising division Director James Moloney on all matters the division has before the Commission. These include rulemaking\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "Routine personnel announcement of senior staff appointments with no policy changes, enforcement actions, or substantive regulatory developments."
     },
     {
       "source": "press_release",
@@ -468,7 +560,9 @@
       "published": "Wed, 21 Jan 2026 08:30:00 -0500",
       "summary": "The Securities and Exchange Commission is seeking candidates to fill a limited number of vacancies on the agency\u2019s Small Business Capital Formation Advisory Committee, which provides advice and recommendations to the Commission on rules, regulations, and\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement regarding committee vacancy recruitment with no immediate policy, enforcement, or market implications."
     },
     {
       "source": "press_release",
@@ -477,7 +571,9 @@
       "published": "Thu, 22 Jan 2026 08:58:00 -0500",
       "summary": "The Securities and Exchange Commission is seeking candidates for appointment as members of the SEC\u2019s Investor Advisory Committee, established pursuant to Section 39 of the Securities Exchange Act of 1934 to help protect investors and improve securities\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement regarding committee membership recruitment with no immediate policy or enforcement implications."
     },
     {
       "source": "press_release",
@@ -486,7 +582,9 @@
       "published": "Thu, 22 Jan 2026 11:52:00 -0500",
       "summary": "The Securities and Exchange Commission today approved the 2026 budget for the Public Company Accounting Oversight Board (PCAOB) and the related accounting support fee.The 2026 PCAOB budget totals $362.1 million. The 2026 budget reflects a 9.4% ($37.6\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative approval of a budget and fee schedule for a regulatory body, lacking any enforcement action, policy change, or market impact."
     },
     {
       "source": "press_release",
@@ -495,7 +593,9 @@
       "published": "Thu, 22 Jan 2026 14:25:00 -0500",
       "summary": "The Securities and Exchange Commission\u2019s Small Business Capital Formation Advisory Committee announced that it will hold a public meeting at the SEC Headquarters in Washington, D.C., on Tuesday, Feb. 24, 2026, at 10 a.m. ET. The meeting will also be\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement of an advisory committee meeting with no enforcement action, rule proposal, or policy decision content."
     },
     {
       "source": "press_release",
@@ -504,7 +604,9 @@
       "published": "Thu, 22 Jan 2026 15:50:56 -0500",
       "summary": "Securities and Exchange Commission Chairman Paul S. Atkins and Commodity Futures Trading Commission Chairman Michael S. Selig will hold a joint event on Tuesday, Jan. 27, from 10 a.m. to 11 a.m. at CFTC headquarters to discuss harmonization between the\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement of a scheduled joint event between two regulatory agencies with no enforcement action, policy decision, or market-moving development."
     },
     {
       "source": "press_release",
@@ -513,7 +615,9 @@
       "published": "Mon, 26 Jan 2026 10:12:31 -0500",
       "summary": "Securities and Exchange Commission Chairman Paul S. Atkins and Commodity Futures Trading Commission Chairman Michael S. Selig will hold a joint event, previously scheduled for Jan. 27, now rescheduled for Thursday, Jan. 29, from 2 p.m. to 3 p.m. at CFTC\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement regarding the rescheduling of a joint event between two regulatory agencies."
     },
     {
       "source": "press_release",
@@ -522,7 +626,9 @@
       "published": "Tue, 27 Jan 2026 16:38:34 -0500",
       "summary": "The Securities and Exchange Commission today filed settled charges against Archer-Daniels-Midland Company (ADM) and its former executives, Vince Macciocchi and Ray Young, and a litigated action against its former executive Vikram Luthar, for&nbsp;\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 4,
+      "ai_score_reason": "Major enforcement action against a Fortune 500 company and multiple executives for accounting fraud with settled and litigated charges indicates significant corporate misconduct and policy enforcement with potential market impact."
     },
     {
       "source": "press_release",
@@ -531,7 +637,9 @@
       "published": "Fri, 30 Jan 2026 15:59:00 -0500",
       "summary": "The Securities and Exchange Commission today announced the appointment of Demetrios (Jim) Logothetis, as Chairman, and Mark Calabria, Kyle Hauptman, and Steven Laughton, as Board members, of the Public Company Accounting Oversight Board (PCAOB). George\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 4,
+      "ai_score_reason": "PCAOB leadership appointments represent significant policy influence over auditing standards and corporate governance oversight, with potential market-wide implications for how public companies are audited and regulated."
     },
     {
       "source": "press_release",
@@ -540,7 +648,9 @@
       "published": "Thu, 05 Feb 2026 13:45:00 -0500",
       "summary": "The Securities and Exchange Commission\u2019s Division of Economic and Risk Analysis (DERA) has published two new reports on exchange traded funds and fund mergers, and updated statistics and data visualizations on municipal advisors, transfer agents, and\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative release of statistical data and reports on various SEC-regulated entities with no enforcement action, policy change, or market-moving implications."
     },
     {
       "source": "press_release",
@@ -549,7 +659,9 @@
       "published": "Fri, 13 Feb 2026 10:45:00 -0500",
       "summary": "The Securities and Exchange Commission will host the agency\u2019s 45th Annual Government Business Forum on Small Business Capital Formation at SEC headquarters in Washington, D.C., on March 9 from 1 p.m. to 5 p.m. ET. The event will be webcast live.&nbsp;\u2026",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement of a recurring annual conference with no new policy changes, enforcement actions, or market-moving developments."
     },
     {
       "source": "press_release",
@@ -558,8 +670,10 @@
       "published": "Wed, 18 Feb 2026 14:30:00 -0500",
       "summary": "",
       "ai_reason": "",
-      "created_at": "2026-02-18 23:07:07"
+      "created_at": "2026-02-18 23:07:07",
+      "ai_score": 2,
+      "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-02-24T00:20:46.465772+00:00"
+  "last_updated": "2026-02-24T00:51:41.537442+00:00"
 }

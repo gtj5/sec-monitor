@@ -210,6 +210,29 @@ def run_pipeline():
     print(f"\n=== Done: {new_count} new items saved ===\n")
 
 
+def backfill_scores():
+    """Score any existing items that don't have an ai_score yet."""
+    print("\n=== Backfilling scores ===")
+    data  = load_data()
+    items = data["items"]
+
+    unscored = [i for i in items if not i.get("ai_score")]
+    print(f"Found {len(unscored)} unscored items out of {len(items)} total\n")
+
+    for idx, item in enumerate(unscored, 1):
+        score, reason = score_item(item["title"], item.get("summary", ""))
+        item["ai_score"]        = score
+        item["ai_score_reason"] = reason
+        print(f"  [{idx}/{len(unscored)}] [{score}/5] {item['title'][:60]}")
+
+    save_data(data)
+    print(f"\n=== Done: {len(unscored)} items scored ===\n")
+
+
 if __name__ == "__main__":
-    run_pipeline()
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == "backfill":
+        backfill_scores()
+    else:
+        run_pipeline()
 
