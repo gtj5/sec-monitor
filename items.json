@@ -2,6 +2,16 @@
   "items": [
     {
       "source": "litigation_release",
+      "title": "Joel Castellanos",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26490",
+      "published": "Tue, 24 Feb 2026 17:03:49 -0500",
+      "summary": "Joel Castellanos",
+      "created_at": "2026-02-25T02:32:08.963069+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a personnel announcement or routine administrative matter with no substantive regulatory content provided."
+    },
+    {
+      "source": "litigation_release",
       "title": "Joseph C. Lewis, Carolyn W. Carter, Patrick J. O\u2019Connor, and Bryan L. Waugh",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26489",
       "published": "Tue, 24 Feb 2026 12:19:27 -0500",
@@ -705,5 +715,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-02-24T20:40:55.911548+00:00"
+  "last_updated": "2026-02-25T02:32:10.033413+00:00"
 }
