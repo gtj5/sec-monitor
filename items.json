@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "Milken Institute - Future of Finance 2026",
+      "url": "https://www.sec.gov/newsroom/meetings-events/milken-institute-future-finance-2026",
+      "published": "2026-03-03 09:00 AM ET",
+      "summary": "SEC Chairman Paul Atkins will participate in the opening plenary of the Milken Institute's Future of Finance 2026 event in Washington D.C. He will be joined by CFTC Chairman Michael Selig, and the conversation will focus on modernizing market regulation.",
+      "created_at": "2026-02-26T20:42:14.601284+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement of a chairman's participation in a conference panel discussion with no substantive policy announcements or regulatory action indicated."
+    },
+    {
       "source": "litigation_release",
       "title": "Fernando Passos",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26493",
@@ -755,5 +765,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-02-26T17:03:11.811340+00:00"
+  "last_updated": "2026-02-26T20:42:15.705880+00:00"
 }
