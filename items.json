@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "Investor Advisory Committee",
+      "url": "https://www.sec.gov/newsroom/meetings-events/iac031226",
+      "published": "2026-03-12 10:00 AM ET",
+      "summary": "",
+      "created_at": "2026-03-04T20:36:09.687620+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative notice regarding a standing advisory committee with no specific action, policy change, or substantive development reported."
+    },
+    {
       "source": "litigation_release",
       "title": "Vidul Prakash",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26495",
@@ -815,5 +825,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-04T16:53:31.865665+00:00"
+  "last_updated": "2026-03-04T20:36:10.711508+00:00"
 }
