@@ -2,6 +2,16 @@
   "items": [
     {
       "source": "open_meeting",
+      "title": "CII Spring Conference",
+      "url": "https://www.sec.gov/newsroom/meetings-events/2026-cii-spring-conference",
+      "published": "2026-03-09 03:35 PM ET",
+      "summary": "SEC Chairman Paul Atkins is participating in a fireside chat at the Council of Institutional Investors (CII) Spring Conference in Washington D.C.",
+      "created_at": "2026-03-09T20:39:15.023215+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative item documenting a scheduled speaking engagement by SEC leadership at an industry conference."
+    },
+    {
+      "source": "open_meeting",
       "title": "BOCA 2026 - FIA Global Cleared Markets Conference",
       "url": "https://www.sec.gov/newsroom/meetings-events/boca-2026-fia-global-cleared-markets-conference",
       "published": "2026-03-10 01:30 PM ET",
@@ -885,5 +895,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-09T16:59:55.873137+00:00"
+  "last_updated": "2026-03-09T20:39:15.938983+00:00"
 }
