@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "BOCA 2026 - FIA Global Cleared Markets Conference",
+      "url": "https://www.sec.gov/newsroom/meetings-events/boca-2026-fia-global-cleared-markets-conference",
+      "published": "2026-03-10 01:30 PM ET",
+      "summary": "SEC Chairman Paul Atkins is giving a keynote address at the BOCA 2026 FIA Global Cleared Markets Conference.",
+      "created_at": "2026-03-09T16:59:54.670019+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "A chairman's conference keynote is a routine administrative event unless the speech content addresses significant policy changes or enforcement actions."
+    },
+    {
       "source": "litigation_release",
       "title": "Matthew J. Werthe, dba HSR Wealth Management",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26497",
@@ -875,5 +885,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-09T13:12:10.019406+00:00"
+  "last_updated": "2026-03-09T16:59:55.873137+00:00"
 }
