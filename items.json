@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "litigation_release",
+      "title": "Randall J. Miller; Chad J. Miller; Jeffrey De Laveaga; Jeffrey Puzzullo",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26498",
+      "published": "Mon, 09 Mar 2026 17:57:25 -0400",
+      "summary": "Randall J. Miller; Chad J. Miller; Jeffrey De Laveaga; Jeffrey Puzzullo",
+      "created_at": "2026-03-10T02:24:25.077359+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "Routine enforcement action against individuals with generic names and minimal summary details indicating standard regulatory proceedings without evidence of systemic impact or unusual circumstances."
+    },
+    {
       "source": "open_meeting",
       "title": "CII Spring Conference",
       "url": "https://www.sec.gov/newsroom/meetings-events/2026-cii-spring-conference",
@@ -895,5 +905,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-09T20:39:15.938983+00:00"
+  "last_updated": "2026-03-10T02:24:26.350996+00:00"
 }
