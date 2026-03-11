@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "press_release",
+      "title": "SEC and CFTC Announce Historic Memorandum of Understanding Between Agencies",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-26-sec-cftc-announce-historic-memorandum-understanding-between-agencies",
+      "published": "Wed, 11 Mar 2026 15:30:00 -0400",
+      "summary": "The two agencies have entered into a MOU to guide coordination and collaboration to support lawful innovation, uphold market integrity, and ensure investor and customer protection.",
+      "created_at": "2026-03-11T20:38:08.990306+00:00",
+      "ai_score": 3,
+      "ai_score_reason": "A historic MOU between major financial regulators signals meaningful structural changes to oversight coordination and could have broad implications for how innovation and market integrity are regulated going forward."
+    },
+    {
       "source": "open_meeting",
       "title": "DC Blockchain Summit",
       "url": "https://www.sec.gov/newsroom/meetings-events/dc-blockchain-summit",
@@ -915,5 +925,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-11T16:57:44.842501+00:00"
+  "last_updated": "2026-03-11T20:38:11.391124+00:00"
 }
