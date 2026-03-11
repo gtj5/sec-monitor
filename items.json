@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "DC Blockchain Summit",
+      "url": "https://www.sec.gov/newsroom/meetings-events/dc-blockchain-summit",
+      "published": "2026-03-17 04:00 PM ET",
+      "summary": "Chairman Paul Atkins will give a keynote address and participate in a fireside with CFTC Chairman Michael Selig at the DC Blockchain Summit.",
+      "created_at": "2026-03-11T16:57:43.873244+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "Routine administrative announcement of a scheduled speaking engagement by SEC leadership at an industry conference."
+    },
+    {
       "source": "litigation_release",
       "title": "Randall J. Miller; Chad J. Miller; Jeffrey De Laveaga; Jeffrey Puzzullo",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26498",
@@ -905,5 +915,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-10T16:58:27.778223+00:00"
+  "last_updated": "2026-03-11T16:57:44.842501+00:00"
 }
