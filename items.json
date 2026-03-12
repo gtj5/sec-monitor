@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "Closed Meeting",
+      "url": "https://www.sec.gov/newsroom/meetings-events/closed-meeting-03-19-2026",
+      "published": "2026-03-19 02:00 PM ET",
+      "summary": "",
+      "created_at": "2026-03-12T20:39:59.970039+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative notice indicating a closed SEC meeting with no disclosed subject matter or public significance."
+    },
+    {
       "source": "press_release",
       "title": "SEC and CFTC Announce Historic Memorandum of Understanding Between Agencies",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-26-sec-cftc-announce-historic-memorandum-understanding-between-agencies",
@@ -925,5 +935,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-12T17:01:16.931127+00:00"
+  "last_updated": "2026-03-12T20:40:01.410499+00:00"
 }
