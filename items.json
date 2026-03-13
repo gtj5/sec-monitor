@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "The SEC Speaks in 2026",
+      "url": "https://www.sec.gov/newsroom/meetings-events/sec-speaks-2026",
+      "published": "2026-03-19 09:00 AM ET",
+      "summary": "SEC commissioners and senior officials are participating in this annual two-day program hosted by the Practising Law Institute to provide an update on the agency's current initiatives and priorities.",
+      "created_at": "2026-03-13T16:46:08.302023+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement about an annual speaking engagement by SEC officials at a conference, with no new policy, enforcement action, or material development disclosed."
+    },
+    {
       "source": "litigation_release",
       "title": "Nader Al-Naji, Buse Desticio\u011flu Al-Naji, Joumana Bahouth Al-Naji, Intangible Holdings, LLC, Firestorm Media, LLC, Viridian City, LLC, and DeSo Foundation",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26499",
@@ -945,5 +955,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-13T13:07:43.721152+00:00"
+  "last_updated": "2026-03-13T16:46:09.413501+00:00"
 }
