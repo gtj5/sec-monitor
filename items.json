@@ -1,6 +1,26 @@
 {
   "items": [
     {
+      "source": "press_release",
+      "title": "SEC Announces Enforcement Division Director Judge Margaret A. Ryan Has Resigned From Agency",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-27-sec-announces-enforcement-division-director-judge-margaret-ryan-has-resigned-agency",
+      "published": "Mon, 16 Mar 2026 14:09:04 -0400",
+      "summary": "The Securities and Exchange Commission today announced that Judge Margaret A. Ryan has resigned from her role as Director of the Division of Enforcement. Principal Deputy Director Sam Waldon has been named Acting Director of the Division, effective March\u2026",
+      "created_at": "2026-03-16T20:42:17.033762+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "While leadership changes are noteworthy, this is a standard personnel transition at the SEC with a clear succession plan in place, lacking the systemic or policy implications that would elevate it to higher newsworthiness."
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Proposes Amendments to Exchange Act Rule 15c2-11",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-28-sec-proposes-amendments-exchange-act-rule-15c2-11",
+      "published": "Mon, 16 Mar 2026 15:15:00 -0400",
+      "summary": "The Securities and Exchange Commission today proposed amendments to Exchange Act Rule 15c2-11, which sets out certain information gathering and review requirements for broker-dealers that publish quotations for, or maintain a continuous quoted market in\u2026",
+      "created_at": "2026-03-16T20:42:17.033746+00:00",
+      "ai_score": 3,
+      "ai_score_reason": "Rule 15c2-11 amendments represent a meaningful regulatory proposal affecting broker-dealer quotation practices and market structure, warranting coverage as notable financial regulation but not yet confirmed as having broad systemic impact."
+    },
+    {
       "source": "open_meeting",
       "title": "The SEC Speaks in 2026",
       "url": "https://www.sec.gov/newsroom/meetings-events/sec-speaks-2026",
@@ -955,5 +975,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-16T17:05:38.718716+00:00"
+  "last_updated": "2026-03-16T20:42:20.631073+00:00"
 }
