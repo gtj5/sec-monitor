@@ -1,6 +1,56 @@
 {
   "items": [
     {
+      "source": "litigation_release",
+      "title": "Bin Hao and Qidian LLC",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26500",
+      "published": "Tue, 17 Mar 2026 13:41:07 -0400",
+      "summary": "Bin Hao and Qidian LLC",
+      "created_at": "2026-03-17T20:42:56.686665+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "Insufficient information provided; appears to be a routine administrative filing with only names listed and no details about the nature of the SEC action or its significance."
+    },
+    {
+      "source": "litigation_release",
+      "title": "Paul W. Jorgensen",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26501",
+      "published": "Tue, 17 Mar 2026 13:53:38 -0400",
+      "summary": "Paul W. Jorgensen",
+      "created_at": "2026-03-17T20:42:56.686660+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine personnel announcement with no substantive information about regulatory action, policy, or enforcement activity."
+    },
+    {
+      "source": "litigation_release",
+      "title": "J. Bernard Rice",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26502",
+      "published": "Tue, 17 Mar 2026 14:04:20 -0400",
+      "summary": "J. Bernard Rice",
+      "created_at": "2026-03-17T20:42:56.686646+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a personnel-related entry with minimal descriptive information, indicating routine administrative content rather than substantive regulatory or enforcement news."
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Publishes Data on Public and Private Offerings, Municipal Advisors, Transfer Agents, and Securities-Based Swap Dealers",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-29-sec-publishes-data-public-private-offerings-municipal-advisors-transfer-agents-securities-based-swap",
+      "published": "Tue, 17 Mar 2026 15:13:00 -0400",
+      "summary": "The Securities and Exchange Commission\u2019s Division of Economic and Risk Analysis (DERA) published a new report on security based swap dealers (SBSDs) and updated statistics and data visualizations on initial public offerings (IPOs), follow-on registered\u2026",
+      "created_at": "2026-03-17T20:42:56.582174+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine publication of statistical data and reports by the SEC's analytical division, with no enforcement action, policy change, or market-moving development."
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Clarifies the Application of Federal Securities Laws to Crypto Assets",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-30-sec-clarifies-application-federal-securities-laws-crypto-assets",
+      "published": "Tue, 17 Mar 2026 15:45:25 -0400",
+      "summary": "The Securities and Exchange Commission (SEC) today issued an interpretation clarifying how the federal securities laws apply to certain crypto assets and transactions involving crypto assets. This is a major step in the Commission\u2019s efforts to provide\u2026",
+      "created_at": "2026-03-17T20:42:56.582159+00:00",
+      "ai_score": 4,
+      "ai_score_reason": "This represents a major policy clarification on crypto asset regulation with potentially broad market impact, as it defines how existing securities laws apply to a rapidly growing and previously uncertain asset class."
+    },
+    {
       "source": "press_release",
       "title": "SEC Announces Enforcement Division Director Judge Margaret A. Ryan Has Resigned From Agency",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-27-sec-announces-enforcement-division-director-judge-margaret-ryan-has-resigned-agency",
@@ -975,5 +1025,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-17T17:06:36.330727+00:00"
+  "last_updated": "2026-03-17T20:43:03.481765+00:00"
 }
