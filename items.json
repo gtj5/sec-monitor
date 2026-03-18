@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "Digital Asset Summit 2026",
+      "url": "https://www.sec.gov/newsroom/meetings-events/digital-asset-summit-2026",
+      "published": "2026-03-24 11:55 AM ET",
+      "summary": "SEC Chairman Paul Atkins is delivering keynote remarks at Digital Asset Summit 2026 hosted by Blockworks.",
+      "created_at": "2026-03-18T20:41:24.744818+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "Routine administrative announcement of a scheduled speaking engagement by SEC leadership at an industry conference."
+    },
+    {
+      "source": "open_meeting",
+      "title": "SIFMA C&L Annual Seminar",
+      "url": "https://www.sec.gov/newsroom/meetings-events/sifma-cl-annual-seminar-2026",
+      "published": "2026-03-23 08:10 AM ET",
+      "summary": "SEC Chairman Paul Atkins is participating in a one-on-one conversation with the SIFMA president & CEO during a general session at SIFMA's C&L Annual Seminar for compliance and legal professionals in financial services.",
+      "created_at": "2026-03-18T20:41:24.744723+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative event involving a SEC chairman speaking at an industry conference, with no policy announcements, enforcement actions, or regulatory changes indicated."
+    },
+    {
+      "source": "litigation_release",
+      "title": "Kenneth A. Welsh",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26503",
+      "published": "Wed, 18 Mar 2026 15:16:54 -0400",
+      "summary": "Kenneth A. Welsh",
+      "created_at": "2026-03-18T20:41:24.491630+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a bare personnel announcement with no substantive information about an SEC action, enforcement, policy, or regulatory matter."
+    },
+    {
       "source": "litigation_release",
       "title": "Bin Hao and Qidian LLC",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26500",
@@ -1025,5 +1055,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-18T17:06:01.991691+00:00"
+  "last_updated": "2026-03-18T20:41:27.949594+00:00"
 }
