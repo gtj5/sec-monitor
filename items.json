@@ -2,6 +2,16 @@
   "items": [
     {
       "source": "litigation_release",
+      "title": "Ozy Media, Inc.",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26506",
+      "published": "Tue, 24 Mar 2026 15:00:27 -0400",
+      "summary": "Ozy Media, Inc.",
+      "created_at": "2026-03-24T20:47:07.135649+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "Routine SEC enforcement action against a media company for unspecified violations, lacking details on settlement amount, alleged misconduct specifics, or broader market impact."
+    },
+    {
+      "source": "litigation_release",
       "title": "Stuart Frost",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26505",
       "published": "Tue, 24 Mar 2026 10:11:53 -0400",
@@ -1085,5 +1095,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-24T17:03:49.226767+00:00"
+  "last_updated": "2026-03-24T20:47:08.711361+00:00"
 }
