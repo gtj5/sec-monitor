@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "Small Business Capital Formation Advisory Committee Meeting",
+      "url": "https://www.sec.gov/newsroom/meetings-events/sbcfac-042826",
+      "published": "2026-04-28 10:00 AM ET",
+      "summary": "",
+      "created_at": "2026-03-26T20:39:43.551139+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative notice of a scheduled advisory committee meeting with no substantive policy decisions, enforcement actions, or market-moving announcements."
+    },
+    {
       "source": "litigation_release",
       "title": "Ozy Media, Inc.",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26506",
@@ -1095,5 +1105,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-26T17:07:04.565803+00:00"
+  "last_updated": "2026-03-26T20:39:44.631878+00:00"
 }
