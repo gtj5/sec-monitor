@@ -2,6 +2,16 @@
   "items": [
     {
       "source": "open_meeting",
+      "title": "Closed Meeting",
+      "url": "https://www.sec.gov/newsroom/meetings-events/closed-meeting-04-02-2026",
+      "published": "2026-04-02 02:00 PM ET",
+      "summary": "",
+      "created_at": "2026-03-27T02:43:27.889803+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "A closed meeting notice without additional context or details indicates routine administrative or procedural activity that does not warrant news coverage."
+    },
+    {
+      "source": "open_meeting",
       "title": "Small Business Capital Formation Advisory Committee Meeting",
       "url": "https://www.sec.gov/newsroom/meetings-events/sbcfac-042826",
       "published": "2026-04-28 10:00 AM ET",
@@ -1105,5 +1115,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-26T20:39:44.631878+00:00"
+  "last_updated": "2026-03-27T02:43:29.074506+00:00"
 }
