@@ -2,6 +2,36 @@
   "items": [
     {
       "source": "litigation_release",
+      "title": "Benjamin Taylor and Darina Windsor",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26509",
+      "published": "Fri, 27 Mar 2026 16:15:28 -0400",
+      "summary": "Benjamin Taylor and Darina Windsor",
+      "created_at": "2026-03-28T02:33:04.259408+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a bare personnel listing or administrative notice with no substantive details about enforcement action, rule changes, or policy implications."
+    },
+    {
+      "source": "litigation_release",
+      "title": "John Olsen; ARCPE 1, LLC; ARCPE Holding, LLC; Gemini 1, LLC; Tamiwest, LLC; Harbor Realty Investment Corp.; and Sunset Harbor Holdings, LLC",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26511",
+      "published": "Fri, 27 Mar 2026 17:23:09 -0400",
+      "summary": "John Olsen; ARCPE 1, LLC; ARCPE Holding, LLC; Gemini 1, LLC; Tamiwest, LLC; Harbor Realty Investment Corp.; and Sunset Harbor Holdings, LLC",
+      "created_at": "2026-03-28T02:33:04.259388+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "Routine enforcement action against an individual and related entities, likely involving standard securities violations without apparent systemic market impact or broader regulatory significance."
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Approves Amendment to NMS Plan to Further Reduce the Costs of the Consolidated Audit Trail",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-31-sec-approves-amendment-nms-plan-further-reduce-costs-consolidated-audit-trail",
+      "published": "Fri, 27 Mar 2026 16:04:54 -0400",
+      "summary": "The Securities and Exchange Commission today approved an amendment to the National Market System Plan governing the Consolidated Audit Trail (\u201cCAT\u201d) and provided exemptive relief from certain requirements of Rule 17a-1 under the Securities Exchange Act\u2026",
+      "created_at": "2026-03-28T02:33:04.073745+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "This is routine administrative activity involving a technical amendment to reduce CAT costs, lacking enforcement action, systemic implications, or significant policy changes."
+    },
+    {
+      "source": "litigation_release",
       "title": "Commonwealth Equity Services, LLC d/b/a Commonwealth Financial Network",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26508",
       "published": "Fri, 27 Mar 2026 14:07:47 -0400",
@@ -1145,5 +1175,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-27T20:43:21.866871+00:00"
+  "last_updated": "2026-03-28T02:33:07.516679+00:00"
 }
