@@ -2,6 +2,16 @@
   "items": [
     {
       "source": "litigation_release",
+      "title": "Ronald Smith",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26513",
+      "published": "Mon, 30 Mar 2026 16:15:00 -0400",
+      "summary": "Ronald Smith",
+      "created_at": "2026-03-30T20:50:59.910695+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a routine personnel or administrative item with insufficient substantive detail to warrant coverage."
+    },
+    {
+      "source": "litigation_release",
       "title": "Titanium Capital LLC; Henry Abdo",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26512",
       "published": "Mon, 30 Mar 2026 12:32:59 -0400",
@@ -1185,5 +1195,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-30T17:00:33.252150+00:00"
+  "last_updated": "2026-03-30T20:51:01.020189+00:00"
 }
