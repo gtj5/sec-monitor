@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "press_release",
+      "title": "SEC Highlights Financial Independence During Financial Literacy Month",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-32-sec-highlights-financial-independence-during-financial-literacy-month",
+      "published": "Tue, 31 Mar 2026 09:52:09 -0400",
+      "summary": "The Securities and Exchange Commission\u2019s Office of Investor Education and Assistance (OIEA) today announced that as part of April\u2019s National Financial Literacy Month it will highlight financial planning tools and resources on&nbsp;Investor.gov to\u2026",
+      "created_at": "2026-03-31T17:02:34.816679+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "Routine administrative announcement about financial literacy resources and public education messaging with no policy, enforcement, or market implications."
+    },
+    {
       "source": "litigation_release",
       "title": "Brent Cranmer and Daniel McCormick",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26514",
@@ -1205,5 +1215,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-31T13:28:18.596946+00:00"
+  "last_updated": "2026-03-31T17:02:36.193080+00:00"
 }
