@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "source": "litigation_release",
+      "title": "Eliseo Prisno and P/E Capital Investment Management Partners",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26515",
+      "published": "Tue, 31 Mar 2026 14:28:34 -0400",
+      "summary": "Eliseo Prisno and P/E Capital Investment Management Partners",
+      "created_at": "2026-03-31T20:48:48.550625+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "This appears to be a routine enforcement action against an individual and investment firm, likely involving standard regulatory violations without indication of systemic market impact or exceptional circumstances."
+    },
+    {
+      "source": "litigation_release",
+      "title": "Brent David Willis",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26516",
+      "published": "Tue, 31 Mar 2026 14:53:53 -0400",
+      "summary": "Brent David Willis",
+      "created_at": "2026-03-31T20:48:48.550620+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a bare personnel or administrative entry with no substantive information about enforcement action, policy, or market impact."
+    },
+    {
+      "source": "litigation_release",
+      "title": "Jon G. Fullenkamp and Scott R. Sand",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26517",
+      "published": "Tue, 31 Mar 2026 16:21:18 -0400",
+      "summary": "Jon G. Fullenkamp and Scott R. Sand",
+      "created_at": "2026-03-31T20:48:48.550606+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a bare personnel or administrative listing with no substantive details about enforcement action, policy, or regulatory significance."
+    },
+    {
       "source": "press_release",
       "title": "SEC Highlights Financial Independence During Financial Literacy Month",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-32-sec-highlights-financial-independence-during-financial-literacy-month",
@@ -1215,5 +1245,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-31T17:02:36.193080+00:00"
+  "last_updated": "2026-03-31T20:48:52.622180+00:00"
 }
