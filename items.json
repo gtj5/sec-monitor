@@ -2,6 +2,16 @@
   "items": [
     {
       "source": "litigation_release",
+      "title": "Brent Cranmer and Daniel McCormick",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26514",
+      "published": "Mon, 30 Mar 2026 16:46:31 -0400",
+      "summary": "Brent Cranmer and Daniel McCormick",
+      "created_at": "2026-03-31T02:43:18.964919+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "Insufficient information provided\u2014only names with no context about the nature of the SEC action, making it impossible to assess newsworthiness beyond routine administrative handling."
+    },
+    {
+      "source": "litigation_release",
       "title": "Ronald Smith",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26513",
       "published": "Mon, 30 Mar 2026 16:15:00 -0400",
@@ -1195,5 +1205,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-03-30T20:51:01.020189+00:00"
+  "last_updated": "2026-03-31T02:43:20.578720+00:00"
 }
