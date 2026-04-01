@@ -1,6 +1,26 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "Digital Assets and Emerging Tech Policy Summit",
+      "url": "https://www.sec.gov/newsroom/meetings-events/digital-assets-emerging-tech-policy-summit",
+      "published": "2026-04-06 03:30 PM ET",
+      "summary": "Chairman Paul Atkins will participate in a fireside chat at the inaugural Digital Assets and Emerging Technology Policy Summit.",
+      "created_at": "2026-04-01T20:50:37.972960+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement of a chairman's speaking engagement with no policy announcement, enforcement action, or material regulatory development."
+    },
+    {
+      "source": "litigation_release",
+      "title": "Michael Smith and Douglas Joshua Dalton",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26518",
+      "published": "Wed, 01 Apr 2026 14:27:43 -0400",
+      "summary": "Michael Smith and Douglas Joshua Dalton",
+      "created_at": "2026-04-01T20:50:37.699498+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "Bare names without substantive details about the subject matter, enforcement action, settlement amount, or regulatory significance provide insufficient information to assess newsworthiness."
+    },
+    {
       "source": "litigation_release",
       "title": "Eliseo Prisno and P/E Capital Investment Management Partners",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26515",
@@ -1245,5 +1265,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-01T17:00:10.684262+00:00"
+  "last_updated": "2026-04-01T20:50:40.715212+00:00"
 }
