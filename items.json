@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "Welcome to the BOOM BELT: A Return to First Principles in Public Markets",
+      "url": "https://www.sec.gov/newsroom/meetings-events/welcome-boom-belt-return-first-principles-public-markets",
+      "published": "2026-04-07 11:00 AM ET",
+      "summary": "SEC Chairman Paul Atkins will deliver keynote remarks alongside Florida Gov. Ron DeSantis, Texas Gov. Greg Abbott, Citadel Securities President Jim Esposito, and Texas Stock Exchange Founder and CEO Jim Lee at an event hosted by the Texas Stock Exchange.",
+      "created_at": "2026-04-02T20:39:13.905292+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "Routine administrative event consisting of a keynote speech by SEC leadership at a regional exchange event with no disclosed policy announcements, enforcement actions, or regulatory changes."
+    },
+    {
       "source": "litigation_release",
       "title": "The Estate of John R. Brodacki, III and Castle Hill Financial Group, LLC",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26519",
@@ -1275,5 +1285,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-02T16:59:08.736277+00:00"
+  "last_updated": "2026-04-02T20:39:15.119803+00:00"
 }
