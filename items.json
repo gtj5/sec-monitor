@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "press_release",
+      "title": "SEC Announces Agenda and Panelists for Roundtable on Options Market Structure",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-33",
+      "published": "Thu, 02 Apr 2026 16:44:29 -0400",
+      "summary": "The Securities and Exchange Commission today announced the agenda and panelists for its April 16, 2026, roundtable on options market structure.The roundtable will be held at the SEC\u2019s headquarters at 100 F Street, N.E., Washington, D.C., from 9:00 a.m.\u2026",
+      "created_at": "2026-04-03T02:41:31.795500+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement about an upcoming roundtable meeting with no enforcement action, policy decision, or market-moving content."
+    },
+    {
       "source": "open_meeting",
       "title": "Welcome to the BOOM BELT: A Return to First Principles in Public Markets",
       "url": "https://www.sec.gov/newsroom/meetings-events/welcome-boom-belt-return-first-principles-public-markets",
@@ -1285,5 +1295,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-02T20:39:15.119803+00:00"
+  "last_updated": "2026-04-03T02:41:33.195611+00:00"
 }
