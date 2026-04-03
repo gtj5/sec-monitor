@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "litigation_release",
+      "title": "Vincent J. Camarda, James E. McArthur, and A.G. Morgan Financial Advisors, LLC",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26520",
+      "published": "Fri, 03 Apr 2026 12:10:30 -0400",
+      "summary": "Vincent J. Camarda, James E. McArthur, and A.G. Morgan Financial Advisors, LLC",
+      "created_at": "2026-04-03T16:46:32.069184+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "Routine enforcement action against individual advisors and a financial advisory firm, likely involving standard compliance violations without indication of systemic risk or major market impact."
+    },
+    {
       "source": "press_release",
       "title": "SEC Announces Agenda and Panelists for Roundtable on Options Market Structure",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-33",
@@ -1295,5 +1305,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-03T13:12:01.786198+00:00"
+  "last_updated": "2026-04-03T16:46:33.526656+00:00"
 }
