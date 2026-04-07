@@ -2,6 +2,16 @@
   "items": [
     {
       "source": "litigation_release",
+      "title": "Jeffrey Higgins",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26521",
+      "published": "Mon, 06 Apr 2026 17:36:53 -0400",
+      "summary": "Jeffrey Higgins",
+      "created_at": "2026-04-07T02:44:48.266882+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a bare personnel or administrative notice with minimal substantive information about an individual named Jeffrey Higgins, lacking context about any enforcement action, policy decision, or market-relevant development."
+    },
+    {
+      "source": "litigation_release",
       "title": "Vincent J. Camarda, James E. McArthur, and A.G. Morgan Financial Advisors, LLC",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26520",
       "published": "Fri, 03 Apr 2026 12:10:30 -0400",
@@ -1305,5 +1315,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-06T20:41:10.835421+00:00"
+  "last_updated": "2026-04-07T02:44:50.382478+00:00"
 }
