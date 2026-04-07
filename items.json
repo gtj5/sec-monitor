@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "press_release",
+      "title": "SEC Announces Enforcement Results for Fiscal Year 2025",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-34",
+      "published": "Tue, 07 Apr 2026 15:48:30 -0400",
+      "summary": "The Securities and Exchange Commission today announced enforcement results for the fiscal year that ended on September 30, 2025.Central to an effective enforcement program is determining which cases to bring and responsibly stewarding Commission\u2026",
+      "created_at": "2026-04-07T20:52:58.227368+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "This is a routine annual enforcement statistics announcement, which is standard SEC administrative activity lacking details about specific cases or systemic findings."
+    },
+    {
       "source": "litigation_release",
       "title": "Jeffrey Higgins",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26521",
@@ -1315,5 +1325,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-07T17:04:27.295646+00:00"
+  "last_updated": "2026-04-07T20:52:59.727153+00:00"
 }
