@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "source": "litigation_release",
+      "title": "Gianoplus Consortia LLC; Michael Peter Gianoplus; Traci Leigh Bransford-Marquis",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26522",
+      "published": "Wed, 08 Apr 2026 10:29:47 -0400",
+      "summary": "Gianoplus Consortia LLC; Michael Peter Gianoplus; Traci Leigh Bransford-Marquis",
+      "created_at": "2026-04-08T17:08:18.810901+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "Routine enforcement action against individuals and a small entity with no indication of systemic impact or market-wide consequences."
+    },
+    {
+      "source": "litigation_release",
+      "title": "Mark D. Anderson; BBFY USA, Inc.; and Captain Drake, LLC",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26523",
+      "published": "Wed, 08 Apr 2026 12:39:14 -0400",
+      "summary": "Mark D. Anderson; BBFY USA, Inc.; and Captain Drake, LLC",
+      "created_at": "2026-04-08T17:08:18.810886+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "Routine enforcement action against individuals and entities with standard settlement or administrative resolution typical of SEC's regular enforcement docket."
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Appoints David Woodcock as Director of the Division of Enforcement",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-35-sec-appoints-david-woodcock-director-division-enforcement",
+      "published": "Wed, 08 Apr 2026 12:20:00 -0400",
+      "summary": "The Securities and Exchange Commission today announced that David Woodcock has been appointed Director of the Division of Enforcement, effective May 4, 2026. Mr. Woodcock is currently a partner in the Dallas and Washington, D.C. offices of Gibson, Dunn\u2026",
+      "created_at": "2026-04-08T17:08:18.657342+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine personnel announcement regarding an executive appointment with no immediate policy implications or market impact."
+    },
+    {
       "source": "press_release",
       "title": "SEC Announces Enforcement Results for Fiscal Year 2025",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-34",
@@ -1325,5 +1355,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-08T13:41:38.403854+00:00"
+  "last_updated": "2026-04-08T17:08:22.202021+00:00"
 }
