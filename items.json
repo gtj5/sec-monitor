@@ -1,6 +1,26 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "Closed Meeting",
+      "url": "https://www.sec.gov/newsroom/meetings-events/closed-meeting-04162026",
+      "published": "2026-04-16 02:00 PM ET",
+      "summary": "",
+      "created_at": "2026-04-09T13:53:28.441688+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative notice of a closed meeting with no substantive details about agenda items, decisions, or policy matters."
+    },
+    {
+      "source": "litigation_release",
+      "title": "Geoffrey Allen Wall",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26524",
+      "published": "Thu, 09 Apr 2026 09:37:24 -0400",
+      "summary": "Geoffrey Allen Wall",
+      "created_at": "2026-04-09T13:53:28.128024+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a routine administrative personnel announcement or filing containing only a name with no substantive regulatory, enforcement, or policy content."
+    },
+    {
       "source": "litigation_release",
       "title": "Gianoplus Consortia LLC; Michael Peter Gianoplus; Traci Leigh Bransford-Marquis",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26522",
@@ -1355,5 +1375,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-09T09:12:57.997597+00:00"
+  "last_updated": "2026-04-09T13:53:31.597321+00:00"
 }
