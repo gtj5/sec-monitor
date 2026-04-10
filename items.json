@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "3rd IMF-IOSCO Conference on Market-Based Finance",
+      "url": "https://www.sec.gov/newsroom/meetings-events/3rd-imf-iosco-conference-market-based-finance",
+      "published": "2026-04-13 10:40 AM ET",
+      "summary": "SEC Chairman Paul Atkins is participating in a fireside chat at the third joint conference on Market-Based Finance hosted by the International Organization of Securities Commission (IOSCO) and the International Monetary Fund (IMF).",
+      "created_at": "2026-04-10T16:55:22.267078+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement about an SEC official's participation in an international conference discussion."
+    },
+    {
       "source": "litigation_release",
       "title": "Backswing Ventures GP LLC and Kyle James Asman",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26525",
@@ -1385,5 +1395,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-10T13:19:30.961273+00:00"
+  "last_updated": "2026-04-10T16:55:23.251982+00:00"
 }
