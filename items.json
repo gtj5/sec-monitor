@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "press_release",
+      "title": "SEC Announces Agenda and Panelists for Roundtable on Options Market Structure",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-33-sec-announces-agenda-panelists-roundtable-options-market-structure",
+      "published": "Thu, 02 Apr 2026 16:44:29 -0400",
+      "summary": "The Securities and Exchange Commission today announced the agenda and panelists for its April 16, 2026, roundtable on options market structure.The roundtable will be held at the SEC\u2019s headquarters at 100 F Street, N.E., Washington, D.C., from 9 a.m. to 3\u2026",
+      "created_at": "2026-04-13T17:07:34.917069+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "Routine administrative announcement of a scheduled roundtable discussion with no enforcement action, rule proposal, or policy decision involved."
+    },
+    {
       "source": "litigation_release",
       "title": "Christopher Joseph Bongiorno and Jason Allan Arthur",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26526",
@@ -1405,5 +1415,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-13T13:47:05.593342+00:00"
+  "last_updated": "2026-04-13T17:07:37.533336+00:00"
 }
