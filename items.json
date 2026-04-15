@@ -1,6 +1,26 @@
 {
   "items": [
     {
+      "source": "litigation_release",
+      "title": "Spartan Trading Company, LLC; Estate of Richard Myre; and Estate of Dale Dahmen",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26528",
+      "published": "Wed, 15 Apr 2026 13:52:50 -0400",
+      "summary": "Spartan Trading Company, LLC; Estate of Richard Myre; and Estate of Dale Dahmen",
+      "created_at": "2026-04-15T20:55:42.010282+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "Routine enforcement action against a trading company and related estates with no indication of systemic impact or market-moving implications."
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Approves Exemptive Order and Proposed Rule Change to Permit Customer Cross-Margining in the U.S. Treasury Market",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-36-sec-approves-exemptive-order-proposed-rule-change-permit-customer-cross-margining-us-treasury-market",
+      "published": "Wed, 15 Apr 2026 15:45:51 -0400",
+      "summary": "The Securities and Exchange Commission today issued a conditional exemptive order that permits customer cross-margining of cash market positions in U.S. Treasury securities cleared by a registered clearing agency and futures positions in U.S. Treasury\u2026",
+      "created_at": "2026-04-15T20:55:41.914488+00:00",
+      "ai_score": 4,
+      "ai_score_reason": "This approval represents a significant policy change affecting how Treasury market participants can manage collateral and risk, with potential broad implications for market structure, efficiency, and systemic liquidity in the critical U.S. Treasury market."
+    },
+    {
       "source": "open_meeting",
       "title": "Remarks Before The Economic Club of Washington, D.C.",
       "url": "https://www.sec.gov/newsroom/meetings-events/remarks-economic-club-washington-dc",
@@ -1445,5 +1465,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-15T17:09:04.884393+00:00"
+  "last_updated": "2026-04-15T20:55:44.387318+00:00"
 }
