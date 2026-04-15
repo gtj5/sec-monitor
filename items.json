@@ -2,6 +2,26 @@
   "items": [
     {
       "source": "open_meeting",
+      "title": "Remarks Before The Economic Club of Washington, D.C.",
+      "url": "https://www.sec.gov/newsroom/meetings-events/remarks-economic-club-washington-dc",
+      "published": "2026-04-21 08:00 AM ET",
+      "summary": "SEC Chairman Paul Atkins is delivering remarks to highlight key achievements during his first year leading the SEC and key priorities for the agency in the year ahead. Following his speech, Chairman Atkins is participating in a discussion with David Rubenstein, the chairman of The Economic Club, about SEC efforts to strengthen U.S. capital markets.",
+      "created_at": "2026-04-15T17:09:02.233753+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "This is a standard public appearance where SEC leadership discusses achievements and priorities, which is routine communication activity rather than substantive policy announcement or enforcement action."
+    },
+    {
+      "source": "litigation_release",
+      "title": "Peter Quartararo",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26527",
+      "published": "Wed, 15 Apr 2026 12:57:19 -0400",
+      "summary": "Peter Quartararo",
+      "created_at": "2026-04-15T17:09:01.969947+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a bare personnel name with no substantive information about any SEC action, announcement, or decision, making it routine administrative material at best."
+    },
+    {
+      "source": "open_meeting",
       "title": "2026 Compliance Outreach Program Regional Seminar for Investment Advisers and Investment Companies (New York)",
       "url": "https://www.sec.gov/newsroom/meetings-events/2026-compliance-outreach-program-regional-seminar-investment-advisers-investment-companies-new-york",
       "published": "2026-06-16 09:15 AM ET",
@@ -1425,5 +1445,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-15T13:46:26.074716+00:00"
+  "last_updated": "2026-04-15T17:09:04.884393+00:00"
 }
