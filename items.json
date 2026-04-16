@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "Closed Meeting",
+      "url": "https://www.sec.gov/newsroom/meetings-events/closed-meeting-04-23-2026",
+      "published": "2026-04-23 02:00 PM ET",
+      "summary": "",
+      "created_at": "2026-04-16T17:19:48.633268+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative notice of a closed SEC meeting with no substantive details about agenda, outcomes, or significance provided."
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Seeks Public Comment on the Consolidated Audit Trail and Other Audit Trails and Data Sources",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-37-sec-seeks-public-comment-consolidated-audit-trail-other-audit-trails-data-sources",
+      "published": "Thu, 16 Apr 2026 09:55:00 -0400",
+      "summary": "The Securities and Exchange Commission today issued a concept release soliciting public comment in support of a comprehensive review of the Consolidated Audit Trail (CAT) and other audit trails and related data sources currently used in the regulation of\u2026",
+      "created_at": "2026-04-16T17:19:48.018161+00:00",
+      "ai_score": 3,
+      "ai_score_reason": "This represents a notable regulatory initiative reviewing a critical market infrastructure system (CAT) that affects trading surveillance and enforcement across all equity and options markets, with potential implications for regulatory effectiveness and market oversight."
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Small Business Advisory Committee to Explore Ways to Encourage More IPOs",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-38-sec-small-business-advisory-committee-explore-ways-encourage-more-ipos",
+      "published": "Thu, 16 Apr 2026 11:45:04 -0400",
+      "summary": "The Securities and Exchange Commission\u2019s Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, April 28, 2026 at 10:00 a.m. to explore ways to encourage more companies to go public.The meeting will be open\u2026",
+      "created_at": "2026-04-16T17:19:48.018146+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "Routine administrative announcement of an advisory committee meeting with no specific proposals, decisions, or outcomes disclosed."
+    },
+    {
       "source": "litigation_release",
       "title": "Spartan Trading Company, LLC; Estate of Richard Myre; and Estate of Dale Dahmen",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26528",
@@ -1465,5 +1495,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-16T13:55:29.539992+00:00"
+  "last_updated": "2026-04-16T17:19:53.512622+00:00"
 }
