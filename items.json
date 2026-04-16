@@ -2,6 +2,26 @@
   "items": [
     {
       "source": "open_meeting",
+      "title": "2026 Compliance Outreach Program Regional Seminar for Investment Advisers and Investment Companies (Atlanta)",
+      "url": "https://www.sec.gov/newsroom/meetings-events/2026-compliance-outreach-program-regional-seminar-investment-advisers-investment-companies-atlanta",
+      "published": "2026-05-12 01:00 PM ET",
+      "summary": "The SEC's Atlanta Regional Office is hosting a virtual compliance outreach seminar for Atlanta-area investment advisers and investment companies. Staff from the Division of Examinations will discuss the new Regulation S-P compliance obligations as well as what to expect when interacting with an exam team during an examination.",
+      "created_at": "2026-04-16T20:53:58.545328+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement about a standard compliance training seminar with no policy changes, enforcement actions, or market implications."
+    },
+    {
+      "source": "press_release",
+      "title": "Chairman Atkins Launches 'Material Matters' Podcast",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-39-chairman-atkins-launches-material-matters-podcast",
+      "published": "Thu, 16 Apr 2026 13:02:47 -0400",
+      "summary": "The Securities and Exchange Commission today announced the launch of Material Matters With SEC Chairman Paul Atkins, a new podcast that provides stakeholders and the investing public with exclusive interviews and insights around the agency\u2019s policy and\u2026",
+      "created_at": "2026-04-16T20:53:58.205240+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement about a new podcast for public outreach and communication, with no enforcement, regulatory policy change, or market impact."
+    },
+    {
+      "source": "open_meeting",
       "title": "Closed Meeting",
       "url": "https://www.sec.gov/newsroom/meetings-events/closed-meeting-04-23-2026",
       "published": "2026-04-23 02:00 PM ET",
@@ -1495,5 +1515,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-16T17:19:53.512622+00:00"
+  "last_updated": "2026-04-16T20:54:00.578619+00:00"
 }
