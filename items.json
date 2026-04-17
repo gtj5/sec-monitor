@@ -2,6 +2,26 @@
   "items": [
     {
       "source": "open_meeting",
+      "title": "13th Annual Conference on Financial Market Regulation",
+      "url": "https://www.sec.gov/newsroom/meetings-events/13th-annual-conference-financial-market-regulation",
+      "published": "2026-05-07 12:30 PM ET",
+      "summary": "The SEC's Division of Economic and Risk Analysis is partnering with Lehigh University\u2019s Center for Financial Services and the University of Virginia\u2019s Darden School of Business for a two-day event to discuss Commission-related topics and priorities.",
+      "created_at": "2026-04-17T16:57:05.836953+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement about a conference partnership with no enforcement action, rule change, or policy development implications."
+    },
+    {
+      "source": "litigation_release",
+      "title": "Sudheesh Nambiar",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26529",
+      "published": "Fri, 17 Apr 2026 12:17:16 -0400",
+      "summary": "Sudheesh Nambiar",
+      "created_at": "2026-04-17T16:57:05.561513+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a personnel or administrative item with minimal information provided, lacking details about any enforcement action, policy change, or substantive regulatory development."
+    },
+    {
+      "source": "open_meeting",
       "title": "2026 Compliance Outreach Program Regional Seminar for Investment Advisers and Investment Companies (Atlanta)",
       "url": "https://www.sec.gov/newsroom/meetings-events/2026-compliance-outreach-program-regional-seminar-investment-advisers-investment-companies-atlanta",
       "published": "2026-05-12 01:00 PM ET",
@@ -1515,5 +1535,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-17T13:26:57.268813+00:00"
+  "last_updated": "2026-04-17T16:57:07.612679+00:00"
 }
