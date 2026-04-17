@@ -1,6 +1,26 @@
 {
   "items": [
     {
+      "source": "litigation_release",
+      "title": "Donald G. Basile, GIBF GP, Inc, and Monsoon Blockchain Corporation",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26530",
+      "published": "Fri, 17 Apr 2026 16:01:01 -0400",
+      "summary": "Donald G. Basile, GIBF GP, Inc, and Monsoon Blockchain Corporation",
+      "created_at": "2026-04-17T20:51:24.263571+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "Routine enforcement action against individuals and entities with limited details provided suggesting standard regulatory compliance matter rather than systemic or market-moving significance."
+    },
+    {
+      "source": "litigation_release",
+      "title": "Kevin N. Richards",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26531",
+      "published": "Fri, 17 Apr 2026 16:02:32 -0400",
+      "summary": "Kevin N. Richards",
+      "created_at": "2026-04-17T20:51:24.263558+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a personnel announcement or administrative notice with no substantive policy, enforcement, or regulatory content provided."
+    },
+    {
       "source": "open_meeting",
       "title": "13th Annual Conference on Financial Market Regulation",
       "url": "https://www.sec.gov/newsroom/meetings-events/13th-annual-conference-financial-market-regulation",
@@ -1535,5 +1555,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-17T16:57:07.612679+00:00"
+  "last_updated": "2026-04-17T20:51:27.331824+00:00"
 }
