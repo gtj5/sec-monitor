@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "press_release",
+      "title": "SEC and CFTC Jointly Propose Amendments to Reduce Private Fund Reporting Burdens",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-40-sec-cftc-jointly-propose-amendments-reduce-private-fund-reporting-burdens",
+      "published": "Mon, 20 Apr 2026 10:45:00 -0400",
+      "summary": "The Securities and Exchange Commission (SEC) and the Commodity Futures Trading Commission (CFTC) jointly proposed amendments to reduce private fund reporting burdens while enabling the continued collection of necessary and appropriate information. The\u2026",
+      "created_at": "2026-04-20T17:08:13.436475+00:00",
+      "ai_score": 3,
+      "ai_score_reason": "Joint SEC-CFTC regulatory amendment proposal affecting private fund reporting represents meaningful regulatory activity with potential industry-wide impact, though it involves burden reduction rather than enforcement or systemic risk."
+    },
+    {
       "source": "litigation_release",
       "title": "Donald G. Basile, GIBF GP, Inc, and Monsoon Blockchain Corporation",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26530",
@@ -1555,5 +1565,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-20T13:50:22.705012+00:00"
+  "last_updated": "2026-04-20T17:08:15.003289+00:00"
 }
