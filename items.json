@@ -2,6 +2,26 @@
   "items": [
     {
       "source": "litigation_release",
+      "title": "Rakesh Ahuja",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26533",
+      "published": "Tue, 21 Apr 2026 14:59:03 -0400",
+      "summary": "Rakesh Ahuja",
+      "created_at": "2026-04-21T20:57:21.750090+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a bare name with no substantive information about any SEC action, enforcement, ruling, or policy matter, making it purely administrative or incomplete."
+    },
+    {
+      "source": "litigation_release",
+      "title": "Voyager Pacific Capital Management, LLC; Roger David Hardcastle; John Giarmarco; Vanessa Lung Medlock; and Relief Defendants Adagio SPE LLC; Andante SPE LLC; Brighton Cove LLC; Cayucos Dream, LLC; GSD Equities, LLC; HGM Holdings LLC; Kastlemark LLC; Martin-Taylor Company LLC; Premier Property Management Group, LLC",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26534",
+      "published": "Tue, 21 Apr 2026 16:49:21 -0400",
+      "summary": "Voyager Pacific Capital Management, LLC; Roger David Hardcastle; John Giarmarco; Vanessa Lung Medlock; and Relief Defendants Adagio SPE LLC; Andante SPE LLC; Brighton Cove LLC; Cayucos Dream, LLC; GSD Equities, LLC; HGM Holdings LLC; Kastlemark LLC; Martin-Taylor Company LLC; Premier Property Management Group, LLC",
+      "created_at": "2026-04-21T20:57:21.750077+00:00",
+      "ai_score": 3,
+      "ai_score_reason": "Enforcement action against an investment firm and multiple individuals with asset freezes involving multiple relief defendants suggests a significant fraud scheme, but without details on scale or market impact, it appears to be a notable rather than immediately market-moving case."
+    },
+    {
+      "source": "litigation_release",
       "title": "Harsh V. Patel",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26532",
       "published": "Mon, 20 Apr 2026 16:52:40 -0400",
@@ -1575,5 +1595,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-21T17:07:54.945494+00:00"
+  "last_updated": "2026-04-21T20:57:25.193510+00:00"
 }
