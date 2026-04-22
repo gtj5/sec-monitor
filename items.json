@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "Bitcoin 2026",
+      "url": "https://www.sec.gov/newsroom/meetings-events/bitcoin-2026",
+      "published": "2026-04-27 02:20 PM ET",
+      "summary": "SEC Chairman Paul S. Atkins is participating in a fireside chat at Bitcoin 2026.",
+      "created_at": "2026-04-22T20:59:56.462991+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement of a speaking engagement with no regulatory, enforcement, or policy content."
+    },
+    {
       "source": "litigation_release",
       "title": "Rakesh Ahuja",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26533",
@@ -1595,5 +1605,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-22T17:05:43.844622+00:00"
+  "last_updated": "2026-04-22T20:59:57.397730+00:00"
 }
