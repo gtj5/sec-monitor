@@ -1,6 +1,26 @@
 {
   "items": [
     {
+      "source": "litigation_release",
+      "title": "Supreme Power Capital Management Ltd.",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26535",
+      "published": "Thu, 23 Apr 2026 14:10:43 -0400",
+      "summary": "Supreme Power Capital Management Ltd.",
+      "created_at": "2026-04-23T20:56:40.288407+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a routine administrative item with minimal substantive detail provided about any SEC action or decision."
+    },
+    {
+      "source": "litigation_release",
+      "title": "AI Investment Education Foundation Ltd.",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26536",
+      "published": "Thu, 23 Apr 2026 14:56:19 -0400",
+      "summary": "AI Investment Education Foundation Ltd.",
+      "created_at": "2026-04-23T20:56:40.288393+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "The item lacks substantive detail about any SEC action or finding, appearing to be merely a naming of an entity without context regarding enforcement, rules, settlements, or policy implications."
+    },
+    {
       "source": "open_meeting",
       "title": "Closed Meeting",
       "url": "https://www.sec.gov/newsroom/meetings-events/closed-meeting-04-30-2026",
@@ -1615,5 +1635,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-23T17:23:30.736627+00:00"
+  "last_updated": "2026-04-23T20:56:43.600914+00:00"
 }
