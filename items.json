@@ -2,6 +2,16 @@
   "items": [
     {
       "source": "litigation_release",
+      "title": "Terrence Chalk",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26540",
+      "published": "Mon, 27 Apr 2026 12:10:30 -0400",
+      "summary": "Terrence Chalk",
+      "created_at": "2026-04-27T17:25:18.502059+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a personnel or administrative item with minimal substantive content regarding SEC regulatory or enforcement activities."
+    },
+    {
+      "source": "litigation_release",
       "title": "John Fernandez, Avail Progression, LLC, and Elite Generators, LLC",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26539",
       "published": "Fri, 24 Apr 2026 16:43:42 -0400",
@@ -1665,5 +1675,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-27T14:03:00.727030+00:00"
+  "last_updated": "2026-04-27T17:25:19.827845+00:00"
 }
