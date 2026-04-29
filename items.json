@@ -2,6 +2,16 @@
   "items": [
     {
       "source": "litigation_release",
+      "title": "Alvin Christopher Jones, Esq.",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26543",
+      "published": "Wed, 29 Apr 2026 09:15:02 -0400",
+      "summary": "Alvin Christopher Jones, Esq.",
+      "created_at": "2026-04-29T14:06:30.020018+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine personnel announcement with no substantive regulatory or enforcement content."
+    },
+    {
+      "source": "litigation_release",
       "title": "RYVYL, Inc.; Fredi Nisan; Benzion Errez",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26541",
       "published": "Tue, 28 Apr 2026 15:44:29 -0400",
@@ -1695,5 +1705,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-29T10:08:30.039496+00:00"
+  "last_updated": "2026-04-29T14:06:32.245844+00:00"
 }
