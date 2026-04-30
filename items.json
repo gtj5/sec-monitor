@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "source": "litigation_release",
+      "title": "Christopher Flagg; Daquan Lloyd; Travis Treusch",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26545",
+      "published": "Thu, 30 Apr 2026 13:19:52 -0400",
+      "summary": "Christopher Flagg; Daquan Lloyd; Travis Treusch",
+      "created_at": "2026-04-30T21:04:39.623932+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a routine personnel or administrative announcement listing three names with no context indicating enforcement action, policy change, or market impact."
+    },
+    {
+      "source": "litigation_release",
+      "title": "Aaron Verdugo, et al.",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26546",
+      "published": "Thu, 30 Apr 2026 15:19:42 -0400",
+      "summary": "Aaron Verdugo, et al.",
+      "created_at": "2026-04-30T21:04:39.623918+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a routine administrative entry with no substantive details about the nature of the matter, making it a standard personnel or procedural filing."
+    },
+    {
+      "source": "press_release",
+      "title": "Deputy Director of Enforcement Jason Burt to Conclude His Tenure at the SEC",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-41-deputy-director-enforcement-jason-burt-conclude-his-tenure-sec",
+      "published": "Thu, 30 Apr 2026 16:30:36 -0400",
+      "summary": "The Securities and Exchange Commission today announced that Jason Burt, Deputy Director of the Division of Enforcement (Specialized Units), will depart the agency on May 1, 2026, after more than 22 years of public service.\u201cJason\u2019s exceptional leadership\u2026",
+      "created_at": "2026-04-30T21:04:39.490491+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine personnel announcement regarding the departure of a senior staff member with standard transition language and no indication of policy changes, enforcement shifts, or broader institutional impact."
+    },
+    {
       "source": "open_meeting",
       "title": "AI+ Expo",
       "url": "https://www.sec.gov/newsroom/meetings-events/special-competitive-studies-project-ai-expo-2026",
@@ -1735,5 +1765,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-30T17:24:28.508301+00:00"
+  "last_updated": "2026-04-30T21:04:43.791869+00:00"
 }
