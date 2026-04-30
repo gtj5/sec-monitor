@@ -1,6 +1,26 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "AI+ Expo",
+      "url": "https://www.sec.gov/newsroom/meetings-events/special-competitive-studies-project-ai-expo-2026",
+      "published": "2026-05-08 11:05 AM ET",
+      "summary": "SEC Chairman Paul S. Atkins will deliver a keynote speech at the AI+ Expo hosted by the Special Competitive Studies Project.",
+      "created_at": "2026-04-30T17:24:26.254305+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement of a speaking engagement by an SEC official at a conference, with no policy announcements, enforcement actions, or regulatory developments indicated."
+    },
+    {
+      "source": "open_meeting",
+      "title": "Milken Institute Global Conference 2026",
+      "url": "https://www.sec.gov/newsroom/meetings-events/milken-institute-global-conference-2026",
+      "published": "2026-05-04 01:40 PM ET",
+      "summary": "SEC Chairman Paul S. Atkins is participating in a session entitled \"Advancing a Modern Regulatory Framework\" at the Milken Institute's Global Conference 2026.",
+      "created_at": "2026-04-30T17:24:26.254079+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement about a chairman's conference participation with no policy announcements, regulatory changes, or substantive content."
+    },
+    {
       "source": "litigation_release",
       "title": "Anthony Joseph Cataldo",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26544",
@@ -1715,5 +1735,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-04-30T14:05:20.302066+00:00"
+  "last_updated": "2026-04-30T17:24:28.508301+00:00"
 }
