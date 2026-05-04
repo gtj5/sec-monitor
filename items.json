@@ -2,6 +2,16 @@
   "items": [
     {
       "source": "litigation_release",
+      "title": "Elon Musk and Elon Musk Revocable Trust Dated July 22, 2003",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26548",
+      "published": "Mon, 04 May 2026 16:45:51 -0400",
+      "summary": "Elon Musk and Elon Musk Revocable Trust Dated July 22, 2003",
+      "created_at": "2026-05-04T21:11:28.398317+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a routine administrative filing or reference document related to trust documentation with no indication of enforcement action, policy change, or market-moving developments."
+    },
+    {
+      "source": "litigation_release",
       "title": "Neil R. Cole",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26547",
       "published": "Mon, 04 May 2026 11:38:47 -0400",
@@ -1785,5 +1795,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-05-04T17:43:32.307901+00:00"
+  "last_updated": "2026-05-04T21:11:30.125563+00:00"
 }
