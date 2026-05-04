@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "litigation_release",
+      "title": "Neil R. Cole",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26547",
+      "published": "Mon, 04 May 2026 11:38:47 -0400",
+      "summary": "Neil R. Cole",
+      "created_at": "2026-05-04T17:43:31.007908+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a bare personnel name with no substantive information about an action, decision, or regulatory matter."
+    },
+    {
       "source": "open_meeting",
       "title": "Closed Meeting",
       "url": "https://www.sec.gov/newsroom/meetings-events/closed-meeting-050726",
@@ -1775,5 +1785,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-05-04T14:09:51.187484+00:00"
+  "last_updated": "2026-05-04T17:43:32.307901+00:00"
 }
