@@ -1,6 +1,26 @@
 {
   "items": [
     {
+      "source": "litigation_release",
+      "title": "David P. Ortiz and DaveGlo Investment Group, Inc.",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26549",
+      "published": "Tue, 05 May 2026 13:53:30 -0400",
+      "summary": "David P. Ortiz and DaveGlo Investment Group, Inc.",
+      "created_at": "2026-05-05T21:05:59.194290+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "This appears to be a routine enforcement action against an individual and investment entity, lacking indicators of systemic significance, market impact, or unusual circumstances that would elevate it beyond standard SEC enforcement activity."
+    },
+    {
+      "source": "litigation_release",
+      "title": "Robert L. Murray, Jr.",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26550",
+      "published": "Tue, 05 May 2026 16:18:51 -0400",
+      "summary": "Robert L. Murray, Jr.",
+      "created_at": "2026-05-05T21:05:59.194277+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a routine personnel or administrative announcement with minimal substantive information provided."
+    },
+    {
       "source": "press_release",
       "title": "SEC Proposes Amendments to Permit Optional Semiannual Reporting by Public Companies",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-42-sec-proposes-amendments-permit-optional-semiannual-reporting-public-companies",
@@ -1805,5 +1825,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-05-05T17:27:20.655403+00:00"
+  "last_updated": "2026-05-05T21:06:01.974924+00:00"
 }
