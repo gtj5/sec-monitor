@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "Closed Meeting",
+      "url": "https://www.sec.gov/newsroom/meetings-events/closed-meeting-052126",
+      "published": "2026-05-21 02:00 PM ET",
+      "summary": "",
+      "created_at": "2026-05-14T21:13:39.600969+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative notice regarding a closed SEC meeting with no substantive details about agenda or outcomes."
+    },
+    {
       "source": "litigation_release",
       "title": "Robert Newell",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26553",
@@ -1895,5 +1905,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-05-14T17:55:41.803897+00:00"
+  "last_updated": "2026-05-14T21:13:40.442880+00:00"
 }
