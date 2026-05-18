@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "press_release",
+      "title": "SEC Rescinds Policy Regarding Denials of Settlements in Enforcement Actions",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-45-sec-rescinds-policy-regarding-denials-settlements-enforcement-actions",
+      "published": "Mon, 18 May 2026 12:33:00 -0400",
+      "summary": "The Securities and Exchange Commission today rescinded a policy, codified in Rule 202.5(e) of its informal rules of procedures, stating that when it chooses to settle an enforcement action in which a sanction is imposed, it will not settle unless the\u2026",
+      "created_at": "2026-05-18T21:14:53.638870+00:00",
+      "ai_score": 3,
+      "ai_score_reason": "This represents a notable policy change affecting SEC enforcement procedures and settlement practices, with potential implications for how the agency resolves violations, though it lacks the breadth or market impact of a score-4 item."
+    },
+    {
       "source": "litigation_release",
       "title": "Joseph Geromini",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26555",
@@ -1925,5 +1935,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-05-18T18:03:06.426352+00:00"
+  "last_updated": "2026-05-18T21:14:56.225657+00:00"
 }
