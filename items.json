@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "press_release",
+      "title": "SEC Proposes Transformative Reforms to Help Public Companies Conduct Registered Offerings and Simplify Reporting Requirements",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-46-sec-proposes-transformative-reforms-help-public-companies-conduct-registered-offerings-simplify",
+      "published": "Tue, 19 May 2026 10:55:00 -0400",
+      "summary": "The Securities and Exchange Commission today proposed amendments to its rules and forms governing registered offerings that are designed to increase efficiency, flexibility, and cost savings for public companies while maintaining robust investor\u2026",
+      "created_at": "2026-05-19T15:32:06.366367+00:00",
+      "ai_score": 3,
+      "ai_score_reason": "Significant rule proposal affecting registered offerings and reporting requirements with broad implications for public companies and market efficiency, though not indicating immediate systemic risk or scandal."
+    },
+    {
       "source": "litigation_release",
       "title": "Oskar Elmgart; Raymond Leibman",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26556",
@@ -1945,5 +1955,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-05-19T11:23:25.721846+00:00"
+  "last_updated": "2026-05-19T15:32:08.474864+00:00"
 }
