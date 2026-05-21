@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "press_release",
+      "title": "SEC and NFA Announce Memorandum of Understanding to Further Harmonize Regulatory Coordination",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-47",
+      "published": "Thu, 21 May 2026 08:51:10 -0400",
+      "summary": "The Securities and Exchange Commission (SEC) and National Futures Association (NFA) today announced that they have entered into a Memorandum of Understanding (MOU) to enhance their cooperation, coordination, and information sharing in areas of common\u2026",
+      "created_at": "2026-05-21T18:02:29.633028+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement regarding inter-agency coordination procedures with no immediate policy changes, enforcement actions, or market impact."
+    },
+    {
       "source": "open_meeting",
       "title": "2026 Reagan National Economic Forum",
       "url": "https://www.sec.gov/newsroom/meetings-events/2026-reagan-national-economic-forum",
@@ -1965,5 +1975,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-05-21T15:35:41.906882+00:00"
+  "last_updated": "2026-05-21T18:02:32.930074+00:00"
 }
