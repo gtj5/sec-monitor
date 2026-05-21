@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "2026 Reagan National Economic Forum",
+      "url": "https://www.sec.gov/newsroom/meetings-events/2026-reagan-national-economic-forum",
+      "published": "2026-05-29 11:00 AM ET",
+      "summary": "SEC Chairman Paul S. Atkins is giving a keynote address at the 2026 Reagan National Economic Forum.",
+      "created_at": "2026-05-21T15:35:40.852843+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative announcement of a speaking engagement with no substantive policy, enforcement, or regulatory content."
+    },
+    {
       "source": "press_release",
       "title": "SEC Proposes Transformative Reforms to Help Public Companies Conduct Registered Offerings and Simplify Reporting Requirements",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-46-sec-proposes-transformative-reforms-help-public-companies-conduct-registered-offerings-simplify",
@@ -1955,5 +1965,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-05-21T11:29:37.281886+00:00"
+  "last_updated": "2026-05-21T15:35:41.906882+00:00"
 }
