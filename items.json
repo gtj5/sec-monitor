@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "U.S. Chamber of Commerce: Capital Markets Summit",
+      "url": "https://www.sec.gov/newsroom/meetings-events/us-chamber-commerce-capital-markets-summit",
+      "published": "2026-06-09 01:00 PM ET",
+      "summary": "SEC Commissioner Hester M. Peirce is participating in the Capital Markets Summit: The Engine That Drives America, which is being hosted by the U.S. Chamber of Commerce. Jim Moloney, Director of the SEC's Division of Corporation Finance, is participating in the preceding session.",
+      "created_at": "2026-05-22T17:55:13.443206+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine announcement of SEC officials' participation in an industry conference, with no policy implications, enforcement actions, or market-moving content."
+    },
+    {
       "source": "litigation_release",
       "title": "James Blake Daughtry",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26557",
@@ -1985,5 +1995,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-05-22T14:46:01.734616+00:00"
+  "last_updated": "2026-05-22T17:55:14.699043+00:00"
 }
