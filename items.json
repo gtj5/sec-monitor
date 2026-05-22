@@ -2,6 +2,16 @@
   "items": [
     {
       "source": "open_meeting",
+      "title": "Stanford Rock Center for Corporate Governance",
+      "url": "https://www.sec.gov/newsroom/meetings-events/stanford-rock-center-corporate-governance",
+      "published": "2026-05-26 06:30 PM ET",
+      "summary": "SEC Chairman Paul S. Atkins is giving opening remarks and participating in a fireside chat.",
+      "created_at": "2026-05-22T21:14:38.350507+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative item involving standard speaking engagement by SEC leadership at an academic event with no policy announcements or regulatory actions."
+    },
+    {
+      "source": "open_meeting",
       "title": "U.S. Chamber of Commerce: Capital Markets Summit",
       "url": "https://www.sec.gov/newsroom/meetings-events/us-chamber-commerce-capital-markets-summit",
       "published": "2026-06-09 01:00 PM ET",
@@ -1995,5 +2005,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-05-22T17:55:14.699043+00:00"
+  "last_updated": "2026-05-22T21:14:39.794192+00:00"
 }
