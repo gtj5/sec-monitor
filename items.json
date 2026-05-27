@@ -2,6 +2,16 @@
   "items": [
     {
       "source": "press_release",
+      "title": "SEC Investor Advisory Committee to Host June 4 Meeting",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-48-sec-investor-advisory-committee-host-june-4-meeting",
+      "published": "Wed, 27 May 2026 10:59:13 -0400",
+      "summary": "The Securities and Exchange Commission\u2019s&nbsp;Investor Advisory Committee will hold a public meeting at the SEC Headquarters in Washington D.C. on June 4 at 10 a.m. ET to discuss private markets, passive index funds, and recommendations regarding fund\u2026",
+      "created_at": "2026-05-27T18:28:29.887007+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative notice announcing a scheduled advisory committee meeting with no indication of controversial outcomes, major policy decisions, or market-moving recommendations."
+    },
+    {
+      "source": "press_release",
       "title": "SEC and NFA Announce Memorandum of Understanding to Further Harmonize Regulatory Coordination",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-47-sec-nfa-announce-memorandum-understanding-further-harmonize-regulatory-coordination",
       "published": "Thu, 21 May 2026 08:51:10 -0400",
@@ -2015,5 +2025,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-05-27T15:53:23.515438+00:00"
+  "last_updated": "2026-05-27T18:28:31.423602+00:00"
 }
