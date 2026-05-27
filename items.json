@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "Investor Advisory Committee",
+      "url": "https://www.sec.gov/newsroom/meetings-events/iac060426",
+      "published": "2026-06-04 10:00 AM ET",
+      "summary": "The SEC's Investor Advisory Committee is holding a meeting to discuss avoiding retail confusion regarding private market assets, passive index funds, shareholder voting, fund proxy voting, and recommendations regarding quarterly vs. semi-annual reporting.",
+      "created_at": "2026-05-27T21:58:40.763004+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "Routine advisory committee meeting discussing investor protection topics with potential incremental policy implications but no immediate enforcement action or concrete rule changes announced."
+    },
+    {
       "source": "press_release",
       "title": "SEC Investor Advisory Committee to Host June 4 Meeting",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-48-sec-investor-advisory-committee-host-june-4-meeting",
@@ -2025,5 +2035,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-05-27T18:28:31.423602+00:00"
+  "last_updated": "2026-05-27T21:58:42.140628+00:00"
 }
