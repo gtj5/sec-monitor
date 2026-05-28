@@ -2,6 +2,16 @@
   "items": [
     {
       "source": "open_meeting",
+      "title": "Closed Meeting",
+      "url": "https://www.sec.gov/newsroom/meetings-events/closed-meeting-060426",
+      "published": "2026-06-04 02:00 PM ET",
+      "summary": "",
+      "created_at": "2026-05-28T16:06:15.342765+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "Routine administrative notice regarding a closed SEC meeting with no substantive details disclosed."
+    },
+    {
+      "source": "open_meeting",
       "title": "Investor Advisory Committee",
       "url": "https://www.sec.gov/newsroom/meetings-events/iac060426",
       "published": "2026-06-04 10:00 AM ET",
@@ -2035,5 +2045,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-05-28T08:07:16.200592+00:00"
+  "last_updated": "2026-05-28T16:06:16.227870+00:00"
 }
