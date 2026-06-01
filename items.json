@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "press_release",
+      "title": "SEC Announces Four New Members of Investor Advisory Committee",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-50-sec-announces-four-new-members-investor-advisory-committee",
+      "published": "Mon, 01 Jun 2026 12:39:44 -0400",
+      "summary": "The Securities and Exchange Commission today announced&nbsp;four&nbsp;new members to fill vacancies on its Investor Advisory Committee.&nbsp;Three of the four new members&nbsp;will serve four-year terms,&nbsp;while the fourth new member will serve as the\u2026",
+      "created_at": "2026-06-01T20:19:07.964346+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is routine administrative activity involving personnel appointments to an advisory committee with no policy implications or enforcement significance."
+    },
+    {
       "source": "litigation_release",
       "title": "Nathan Fuller",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26558",
@@ -2065,5 +2075,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-06-01T13:39:58.593842+00:00"
+  "last_updated": "2026-06-01T20:19:09.393924+00:00"
 }
