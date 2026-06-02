@@ -1,6 +1,26 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "NIRI2026 Annual Conference",
+      "url": "https://www.sec.gov/newsroom/meetings-events/niri2026-annual-conference",
+      "published": "2026-06-08 10:15 AM ET",
+      "summary": "SEC Chairman Paul S. Atkins is participating in the NIRI2026 Annual Conference hosted by the National Investor Relations Institute.",
+      "created_at": "2026-06-02T19:43:05.952311+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "Routine administrative announcement of SEC leadership's participation in a standard industry conference."
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Publishes Draft Strategic Plan for Public Comment",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-51-sec-publishes-draft-strategic-plan-public-comment",
+      "published": "Tue, 02 Jun 2026 10:30:00 -0400",
+      "summary": "The Securities and Exchange Commission today published a&nbsp;Draft Strategic Plan&nbsp;that focuses on returning the agency to the core mission set by Congress more than 90 years ago: protecting investors; maintaining fair, orderly, and efficient\u2026",
+      "created_at": "2026-06-02T19:43:05.545216+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "Publishing a draft strategic plan for public comment is a routine administrative procedure that does not indicate any new enforcement actions, rule changes, or policy shifts with immediate market impact."
+    },
+    {
       "source": "press_release",
       "title": "SEC Announces Four New Members of Investor Advisory Committee",
       "url": "https://www.sec.gov/newsroom/press-releases/2026-50-sec-announces-four-new-members-investor-advisory-committee",
@@ -2075,5 +2095,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-06-02T12:06:41.102211+00:00"
+  "last_updated": "2026-06-02T19:43:08.119184+00:00"
 }
