@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "litigation_release",
+      "title": "Ross Gregory Erskine",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26559",
+      "published": "Wed, 03 Jun 2026 10:11:02 -0400",
+      "summary": "Ross Gregory Erskine",
+      "created_at": "2026-06-03T19:51:40.986639+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a routine personnel or administrative item with minimal substantive content provided."
+    },
+    {
       "source": "open_meeting",
       "title": "NIRI2026 Annual Conference",
       "url": "https://www.sec.gov/newsroom/meetings-events/niri2026-annual-conference",
@@ -2095,5 +2105,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-06-03T12:43:55.638354+00:00"
+  "last_updated": "2026-06-03T19:51:42.180950+00:00"
 }
