@@ -2,6 +2,26 @@
   "items": [
     {
       "source": "litigation_release",
+      "title": "Charles J. Cole, Torben M. Welch, Beacon Heart, LLC, Heart of Humanity, LLC, Avranoc, LLC, Defendants; The indigenous Nations\u2019 Bank, Derek A. Thiess, Barry R. Taylor, Relief Defendants",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26563",
+      "published": "Thu, 11 Jun 2026 13:35:43 -0400",
+      "summary": "Charles J. Cole, Torben M. Welch, Beacon Heart, LLC, Heart of Humanity, LLC, Avranoc, LLC, Defendants; The indigenous Nations\u2019 Bank, Derek A. Thiess, Barry R. Taylor, Relief Defendants",
+      "created_at": "2026-06-11T18:48:46.052500+00:00",
+      "ai_score": 2,
+      "ai_score_reason": "Routine enforcement action against individuals and entities for securities violations with named relief defendants, lacking indicators of systemic impact or exceptional circumstances."
+    },
+    {
+      "source": "press_release",
+      "title": "SEC Proposes Rescission of Regulation NMS Rules 611 and 610(e)",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-54-sec-proposes-rescission-regulation-nms-rules-611-610e",
+      "published": "Thu, 11 Jun 2026 10:55:00 -0400",
+      "summary": "The Securities and Exchange Commission today proposed amendments to rescind Rules 611 and 610(e) of Regulation NMS.\u201cAfter two decades of Rule 611, it is high time that the Commission review its unintended consequences that have hindered \u2014 rather than\u2026",
+      "created_at": "2026-06-11T18:48:45.746003+00:00",
+      "ai_score": 4,
+      "ai_score_reason": "Proposed rescission of two decades-old Regulation NMS rules represents a major policy change with significant implications for market structure, order routing, and trading practices across the financial system."
+    },
+    {
+      "source": "litigation_release",
       "title": "Sterling Capital, LLC",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26562",
       "published": "Mon, 08 Jun 2026 10:14:13 -0400",
@@ -2165,5 +2185,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-06-11T12:12:15.582553+00:00"
+  "last_updated": "2026-06-11T18:48:49.369307+00:00"
 }
