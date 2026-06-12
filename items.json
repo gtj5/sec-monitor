@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "litigation_release",
+      "title": "Santos Kiidd",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26565",
+      "published": "Fri, 12 Jun 2026 16:11:25 -0400",
+      "summary": "Santos Kiidd",
+      "created_at": "2026-06-12T21:49:48.654110+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "Insufficient information provided; appears to be a name without context or substantive details about SEC action, ruling, or enforcement."
+    },
+    {
       "source": "open_meeting",
       "title": "Closed Meeting",
       "url": "https://www.sec.gov/newsroom/meetings-events/closed-meeting-061826",
@@ -2215,5 +2225,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-06-12T18:09:37.863066+00:00"
+  "last_updated": "2026-06-12T21:49:50.191058+00:00"
 }
