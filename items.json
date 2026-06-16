@@ -2,6 +2,16 @@
   "items": [
     {
       "source": "litigation_release",
+      "title": "Bruce Cameron Conway",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26568",
+      "published": "Tue, 16 Jun 2026 10:02:03 -0400",
+      "summary": "Bruce Cameron Conway",
+      "created_at": "2026-06-16T19:39:18.372007+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This appears to be a routine personnel or administrative item with minimal substantive content provided."
+    },
+    {
+      "source": "litigation_release",
       "title": "Rakesh Ahuja",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26567",
       "published": "Mon, 15 Jun 2026 14:59:38 -0400",
@@ -2245,5 +2255,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-06-16T12:56:37.396386+00:00"
+  "last_updated": "2026-06-16T19:39:19.526717+00:00"
 }
