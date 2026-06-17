@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "source": "open_meeting",
+      "title": "Closed Meeting",
+      "url": "https://www.sec.gov/newsroom/meetings-events/closed-meeting-062526",
+      "published": "2026-06-25 02:00 PM ET",
+      "summary": "",
+      "created_at": "2026-06-17T22:03:00.405453+00:00",
+      "ai_score": 1,
+      "ai_score_reason": "This is a routine administrative notice about a closed SEC meeting with no details about substance, agenda, or outcomes, indicating standard internal governance activity."
+    },
+    {
       "source": "litigation_release",
       "title": "Kamal Zuhdi Abdallah, a/k/a Kamal Sulleman, Defendant; Zeina Abdallah, Relief Defendant",
       "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26569",
@@ -2265,5 +2275,5 @@
       "ai_score_reason": "Routine regulatory amendment to reduce administrative compliance burdens for fund reporting, lacking significant policy impact or market consequences."
     }
   ],
-  "last_updated": "2026-06-17T18:23:04.818595+00:00"
+  "last_updated": "2026-06-17T22:03:02.454661+00:00"
 }
